@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About Project",
+      "author": [],
+      "contents": "\nIn July 2021, Georgia has launched the project on “Tracing the Link\nBetween Climate Justice Action and the NDCs,” which is already being\nimplemented in Brazil, Columbia, Switzerland, Ukraine, and Germany.\nSince the International climate commitments are translated into\nnational plans and strategies, resulting in local climate actions, the\nproject’s primary goal is to assess how well the NDC-ETF Framework\nallows for tracking local climate action in their respective capacities\nand capabilities and whether it helps or hinders energy access and\nclimate just renewable energy systems. Thus, the case study will report\non the following objectives:\nThe traceability/translation of international climate commitments to\nnational and local climate plans;\nAuthorities’ consistency in reporting on the implementation of local\nand national climate plans;\nAuthorities report on the effects of the implementation of local and\nnational climate action;\nThe traceability/recognition and contribution of the of\ncommunity-based renewable energy projects.\nThis project is part of the International\nClimate Initiative (IKI). The\nFederal Ministry for the Environment, Nature Conservation and Nuclear\nSafety (BMU) supports this initiative on the basis of a decision\nadopted by the German Bundestag. The study is commissioned by Bund für Umwelt und Naturschutz Deutschland\ne.V. (BUND).\n\n\n\n",
+      "last_modified": "2022-08-25T23:21:39+04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "ndcTracker",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-08-25T22:04:02+04:00"
+    },
+    {
+      "path": "team.html",
+      "title": "Project Team",
+      "author": [],
+      "contents": "\nGvantsa Salukvadze\nEkaterine Mikadze\n\nEkaterine Mikadze is an environmental policy specialist, currently\nworking as EU4climate project manager at UNDP Georgia. She has a working\nexperience for the government and civil society organizations in\nGeorgia, including the Climate Change and European Integration\ndepartments of the Ministry of Environmental Protection and Agriculture.\nEkaterine obtained her MSc degree in Environmental Technology from the\nImperial College London (2020) and MSc degree in Environmental\ngovernance from Albert Ludwig University, Germany (2015). Her research\nand professional interests include climate change and circular\neconomy.\nTemur Gugushvili\n\nCurrently, Temur is working at the Food and Agriculture Organization\n(FAO) Representation in Georgia as Researcher. At the same time, He is a\nPhD Candidate at Tbilisi State University, Department of Sociology. His\nacademic career already includes several impactful research projects\nfocusing on rural and mountain development. Temur is researching\ninternational, public and academic sectors. He believe that the\nresearcher’s primary role is to explore the hitherto hidden and spread\nit in an understandable way to the relevant stakeholders. For this\nreason, Temur synthesise in practice social science theories, methods\nand information handling tools, such as R/Rstudio, QGIS, SPSS, Excel,\nAccess, MAXQDA, Mendeley, etc.\nProject Contact:\nSeverin.Ettl@bund.net (Germany)\ngvantsa.salukvadze955@sps.tsu.edu.ge (Georgia)\n\n\n\n",
+      "last_modified": "2022-08-25T16:14:32+04:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

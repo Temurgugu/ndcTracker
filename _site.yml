@@ -1,0 +1,19 @@
+name: "translations"
+title: "ndcTracker" 
+description: |
+base_url: https://qartulad.netlify.app/
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Publication"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Project Team"
+      href: team.html
+output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, facebook]
+    citations: false
+theme: "gugutheme.css"
