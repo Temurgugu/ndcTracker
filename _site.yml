@@ -1,15 +1,16 @@
-name: "translations"
-title: "Q(D)Aრთულად" 
+name: "ndcTracker"
+title: "ndcTracker" 
 description: |
-  ჩვენ ვთარგმნით მონაცემთა ანალიზის თვისებრივ მიდგომებს
-base_url: https://qartulad.netlify.app/
+base_url: https://ndcTracker.netlify.app/
 output_dir: "docs"
 navbar:
   right:
-    - text: "ქართულად"
+    - text: "Publication"
       href: index.html
-    - text: "ჩვენ შესახებ"
+    - text: "About"
       href: about.html
+    - text: "Team"
+      href: team.html
 output: distill::distill_article
 collections:
   posts:
