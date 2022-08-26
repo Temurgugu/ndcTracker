@@ -6,7 +6,7 @@ base_url: https://ndcTracker.netlify.app/
 navbar:
   right:
     - text: "Publication"
-      href: blog.html  
+      href: index.html  
     - text: "About"
       href: about.html
     - text: "Team"
