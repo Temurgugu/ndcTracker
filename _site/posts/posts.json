@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2022-08-26-test/",
+    "title": "Building a {distill} website",
+    "description": "test.",
+    "author": [
+      {
+        "name": "Temur Gugushvili",
+        "url": {}
+      }
+    ],
+    "date": "2022-08-26",
+    "categories": [],
+    "contents": "\nsatest\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-08-26T13:01:55+04:00",
+    "input_file": {}
+  }
+]
