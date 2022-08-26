@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://qartulad.netlify.app/about.html</loc>
+    <loc>https://ndcTracker.netlify.app/about.html</loc>
     <lastmod>2022-08-23T18:37:12+04:00</lastmod>
   </url>
   <url>
-    <loc>https://qartulad.netlify.app/</loc>
+    <loc>https://ndcTracker.netlify.app/</loc>
     <lastmod>2022-08-23T10:03:06+04:00</lastmod>
   </url>
   <url>
-    <loc>https://qartulad.netlify.app/team.html</loc>
+    <loc>https://ndcTracker.netlify.app/team.html</loc>
     <lastmod>2022-08-25T23:37:53+04:00</lastmod>
   </url>
   <url>
-    <loc>https://qartulad.netlify.app/posts/ndcTracker/</loc>
-    <lastmod>2022-08-25T23:38:53+04:00</lastmod>
+    <loc>https://ndcTracker.netlify.app/posts/ndcTracker/</loc>
+    <lastmod>2022-08-26T11:50:47+04:00</lastmod>
   </url>
 </urlset>
