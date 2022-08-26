@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/2022-08-26-test/",
-    "title": "Building a {distill} website",
-    "description": "test.",
-    "author": [
-      {
-        "name": "Temur Gugushvili",
-        "url": {}
-      }
-    ],
-    "date": "2022-08-26",
-    "categories": [],
-    "contents": "\nsatest\n\n\n\n",
-    "preview": {},
-    "last_modified": "2022-08-26T13:01:55+04:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/ndcTracker/",
     "title": "“Tracing the link between Climate Justice Action and the NDCs” in Georgia",
     "description": "In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs.",
