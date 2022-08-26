@@ -1,8 +1,8 @@
-name: "website"
-title: "test"
+name: "ndcTracker"
+title: "ndcTracker" 
 description: |
-  test
 output_dir: "_site"
+base_url: https://ndcTracker.netlify.app/
 navbar:
   right:
     - text: "Publication"
@@ -11,5 +11,11 @@ navbar:
       href: about.html
     - text: "Team"
       href: team.html
+    - icon: fa fa-github
+      href: https://github.com/Temurgugu/ndcTracker
 output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, facebook]
+    citations: true
 theme: "gugutheme.css"
