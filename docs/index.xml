@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Q(D)Aრთულად</title>
+    <link>https://qartulad.netlify.app/</link>
+    <atom:link href="https://qartulad.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>ჩვენ ვთარგმნით მონაცემთა ანალიზის თვისებრივ მიდგომებს
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>თვისებრივი კონტენტ-ანალიზი (ფილიპ მაირინგი)</title>
+      <dc:creator>თემურ გუგუშვილი</dc:creator>
+      <dc:creator>თამუნა ჩხაიძე</dc:creator>
+      <link>https://qartulad.netlify.app/posts/QCAMayring</link>
+      <description>წარმოდგენილი სტატია აღწერს ტექსტის სისტემურ, ინსტრუქციებზე დაფუძნებულ ანალიზს, რომელიც ცდილობს შეინარჩუნოს რაოდენობრივი კონტენტ-ანალიზის მეთოდოლოგიური ძლიერი მხარეები და გაავრცელოს ისინი თვისებრივ მონაცემთა ანალიზის პროცედურებზე.</description>
+      <guid>https://qartulad.netlify.app/posts/QCAMayring</guid>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://qartulad.netlify.app/posts/QCAMayring/image/preview.png" medium="image" type="image/png" width="529" height="404"/>
+    </item>
+  </channel>
+</rss>

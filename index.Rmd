@@ -1,5 +1,5 @@
 ---
-title: "ndcTracker"
+title: "რესურსები Q(D)Aრთულად"
 site: distill::distill_website
 listing: posts
 ---
