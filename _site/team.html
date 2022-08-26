@@ -88,26 +88,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>test: ndcTracker</title>
+  <title>test: Project Team</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="test: ndcTracker"/>
+  <meta property="og:title" content="test: Project Team"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="test"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="test: ndcTracker"/>
+  <meta property="twitter:title" content="test: Project Team"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["ndcTracker"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Project Team"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2079,12 +2079,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"ndcTracker","authors":[]}
+{"title":"Project Team","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2107,168 +2107,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="ndcTracker">ndcTracker</h1>
-<a href="posts/2022-08-26-test/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Aug. 26, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Temur Gugushvili</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Building a {distill} website</h2>
-<div class="dt-tags"></div>
-<p>test.</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>ndcTracker</h1>
+<h1>Project Team</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2276,6 +2117,42 @@ function init_posts_list() {
 
 
 <div class="d-article">
+<h2 id="gvantsa-salukvadze">Gvantsa Salukvadze</h2>
+<p><img src="image/gvantsa.jpeg" style="width:50.0%" /></p>
+<h2 id="ekaterine-mikadze">Ekaterine Mikadze</h2>
+<p><img src="image/Imageeka.jpeg" style="width:50.0%" /></p>
+<p>Ekaterine Mikadze is an environmental policy specialist, currently
+working as EU4climate project manager at UNDP Georgia. She has a working
+experience for the government and civil society organizations in
+Georgia, including the Climate Change and European Integration
+departments of the Ministry of Environmental Protection and Agriculture.
+Ekaterine obtained her MSc degree in Environmental Technology from the
+Imperial College London (2020) and MSc degree in Environmental
+governance from Albert Ludwig University, Germany (2015). Her research
+and professional interests include climate change and circular
+economy.</p>
+<h2 id="temur-gugushvili">Temur Gugushvili</h2>
+<p><img
+src="https://temurgugushvili.ge/author/temur-gugushvili/avatar_hu458d9f250d4c51d172b80f9ae4eaf7ec_139912_270x270_fill_q90_lanczos_center.jpg"
+style="width:50.0%" /></p>
+<p>Currently, Temur is working at the Food and Agriculture Organization
+(FAO) Representation in Georgia as Researcher. At the same time, He is a
+PhD Candidate at Tbilisi State University, Department of Sociology. His
+academic career already includes several impactful research projects
+focusing on rural and mountain development. Temur is researching
+international, public and academic sectors. He believe that the
+researcher’s primary role is to explore the hitherto hidden and spread
+it in an understandable way to the relevant stakeholders. For this
+reason, Temur synthesise in practice social science theories, methods
+and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel,
+Access, MAXQDA, Mendeley, etc.</p>
+<p><em>Project Contact:</em></p>
+<ul>
+<li><a href="mailto:Severin.Ettl@bund.net"
+class="email">Severin.Ettl@bund.net</a> (Germany)</li>
+<li><a href="mailto:gvantsa.salukvadze955@sps.tsu.edu.ge"
+class="email">gvantsa.salukvadze955@sps.tsu.edu.ge</a> (Georgia)</li>
+</ul>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

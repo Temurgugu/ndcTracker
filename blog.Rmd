@@ -1,5 +1,4 @@
 ---
-title: "blog"
+title: "ndcTracker"
 listing: posts
-
 ---
