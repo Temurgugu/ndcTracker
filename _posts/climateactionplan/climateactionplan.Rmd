@@ -1,0 +1,75 @@
+---
+title: "Climate Action Plan 2021-2023 (Visualisation)"
+description: |
+author:
+  - name: Temur Gugushvili 
+    url: https://temurgugushvili.ge/
+    affiliation: Ivane Javakhishvili Tbilisi State University
+    affiliation_url: https://www.tsu.ge/
+date: 07-09-2021
+preview: image/preview.png
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+    toc_float: true
+slug: gugushvili
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(ggplot2)
+library(tidyverse)
+library(viridis)
+library(collapsibleTree)
+library(treemapify)
+library(collapsibleTree)
+
+```
+
+The project team developed visualization as a side project based on the 2021-2023 Action Plan of Georgia’s 2030 Climate Strategy. The interactive visualization explores responsible institutions for the action plan activities and shows how activities are supported and by how much. 
+
+Some of the findings you can see [here](https://ndctracker.netlify.app/posts/ndctracker/); rest expore by yourself and share with us.
+
+```{r  fig.height = 6, fig.width = 9, dev.args=list(bg='transparent', pointsize=10)}
+
+                                                
+ClimateAction <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/ClimateAction.csv",
+                                 col_types = cols(Goal = "c",
+                                                  Objective = "c",
+                                                  Activity = "c",
+                                                  Institution = "c",
+                                                  Abbreviation = "c",
+                                                  Budget = "c",
+                                                  Type_origin = "c",
+                                                  Type = "c",
+                                                  amount = "n",
+                                                  Organization = "c"))
+
+
+
+ClimateActionT <- ClimateAction %>%
+  filter(amount > 0) %>%
+  group_by() %>%
+  mutate(Sum = sum(amount)) %>%
+  ungroup() %>%
+  mutate(Per = amount/Sum*100) 
+
+
+collapsibleTreeSummary(
+  ClimateActionT,
+  hierarchy = c("Goal","Institution", "Type", "amount", "Activity"),
+  width = 1500,
+  zoomable = TRUE,
+  linkLength = 350,
+  fontSize = 13,
+  root = "NDC",
+  attribute = "Per",
+  tooltip = TRUE,
+  maxPercent = 71.5
+  )
+
+```

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://ndcTracker.netlify.app/about.html</loc>
-    <lastmod>2022-08-26T14:24:56+04:00</lastmod>
+    <lastmod>2022-08-26T20:53:18+04:00</lastmod>
   </url>
   <url>
     <loc>https://ndcTracker.netlify.app/</loc>
@@ -10,10 +10,14 @@
   </url>
   <url>
     <loc>https://ndcTracker.netlify.app/team.html</loc>
-    <lastmod>2022-08-26T19:29:16+04:00</lastmod>
+    <lastmod>2022-08-26T20:52:36+04:00</lastmod>
   </url>
   <url>
     <loc>https://ndcTracker.netlify.app/posts/ndcTracker/</loc>
-    <lastmod>2022-08-26T11:50:47+04:00</lastmod>
+    <lastmod>2022-08-26T22:24:50+04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ndcTracker.netlify.app/posts/climateactionplan/</loc>
+    <lastmod>2022-08-26T21:42:34+04:00</lastmod>
   </url>
 </urlset>

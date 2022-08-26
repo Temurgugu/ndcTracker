@@ -25,7 +25,7 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
-citation_url: https://www.tsu.ge/
+citation_url: https://ndctracker.netlify.app/posts/ndctracker/
 slug: Saluqvadzeetal2022
 bibliography: biblio.bib
 ---
@@ -100,11 +100,8 @@ In view of all stated above, in the below-presented chapters, we attempt to anal
 Since the International climate commitments need to be translated into national and subnational plans and strategies to achieve desired targets, the project's primary goal is to assess:
 
 -	The traceability/translation of international climate commitments to national and local climate plans;
-
 -	Authorities’ consistency in reporting on the implementation of local and national climate plans;
-
 -	Authorities report on the effects of the implementation of local and national climate action;
-
 -	The traceability/recognition and contribution of community-based renewable energy projects. 
 
 
@@ -119,13 +116,9 @@ Within the specified methodological baseline, empirical data was acquired by com
 The purposive sampling was applied using the maximum variation approach [@Patton2015] for selecting interview partners. The selection of the informants was done in accordance with pre-defined diverse traits:
 
 -	Involvement in international, national, and local climate-related activities; 
-
 -	State and donor institutions supporting the implementation of NDC commitments in Georgia;
-
 -	Regional organizations/associations localizing the NDC commitments in Georgia; 
-
 -	Organizations implementing the RE projects in Georgia;
-
 -	International climate change programs.
 
 By considering these features and based on the fundamental concept of maximum variation sampling, the study acquired more essential insights into a phenomenon by examining it from multiple angles. As a result of the interview partner’s sampling, the study involved (i) governmental agencies, (ii) NGOs, CSOs (iii) international donor organizations, (iv) local municipalities, and (v) private sector representatives.
@@ -145,11 +138,8 @@ The interviews were audio-recorded to avoid bias in the research process. Follow
 In the second phase, a questionnaire for an online survey was developed based on the findings of the qualitative approach. The survey used a 5-point scale and multiple-choice questions to allow stakeholders to reply on the following key issues:
 
 -	Policy documents that should reflect Nationally Determined Contributions commitments; 
-
 -	Sectors of the NDC and/or CAP that municipalities should strengthen their mandate and engagement; 
-
 -	Evaluating the availability of required GHG emissions data at national and local levels; 
-
 -	Rating the level of climate mitigation and/or adaptation measures taken by municipalities.
 
 The questionnaire was distributed to the general public to incorporate the most diverse stakeholder groups into the study. The structured information obtained via this technique supported the data obtained through a qualitative component and ensured comprehensive coverage of the study objectives.
@@ -161,7 +151,6 @@ Because the survey facilitated the participation of multiple stakeholders, relat
 Case studies were carried out within the study framework in Telavi Municipality, where meetings and visits to specified locations were held in line with the research objectives. The case study area was chosen based on the following pre-established factors:
 
 -	Signatory municipality of the Covenant of Mayors, which submitted the action plan, has the regional coordinator and implemented demonstration projects;
-
 -	Current renewable energy initiatives in the area are viewed as role models for other signatory cities. 
 
 The characteristics mentioned above disqualified some cities at the more basic and intermediate phases of NDC implementation. Finally, the fieldwork captured a wide range of activities focused on a particular research site by selecting Telavi municipality. The first case study showcasing the municipality's energy-efficient kindergartens are role models and outstanding demonstration projects in meeting NDC commitments locally. In particular, the research team visited two kindergartens where energy-efficient solutions are being implemented - thermal refurbishment and heating the kindergartens using biomass from local vineyards. Furthermore, information about the RE project – LOPOTA HPP 1 (less than 6 MW) was gathered, despite the fact that on-site visit was not permitted. The latter case was selected to explore the participatory strategies, social responsibility, and, importantly, social costs of RE projects and the local community in Georgia. 
@@ -180,11 +169,8 @@ For implementing the NDC stakeholders mapping, the study first identified them a
 As a result, the analysis of Interest and influence divided the stakeholders into the following four categories (see Figure 1):
 
 -	Subject (high interest/low influence);
-
 -	Key players (high interest and influence);
-
 -	Crowd (low interest and influence);
-
 -	Context setters (low interest/high influence).
 
 The categorization of the NDC Stakeholders on the Interest–Influence Matrix served as an excellent foundation for selecting interview partners from all four sections. In particular, those with limited opportunity to participate in the process and those with authority to make decisions.
@@ -215,10 +201,10 @@ Figure1 <- Stakeholder %>%
                                                     "Edu-institutions", "HPP (Small)")))+
                            theme(plot.title=element_text(colour="black", size=16),
                                  legend.position="right")+
-                           annotate("text", x = 9, y = 10, label = "Key Players \nEngage & Collaborate")+
+                           annotate("text", x = 8, y = 10, label = "Key Players \nEngage & Collaborate")+
                            annotate("text", x = 9, y = 0.5,  label = "Context Setters \nConsult")+
                            annotate("text", x = 0.5, y = 0.5, label = "Crowd \nInform")+
-                           annotate("text", x = 0.8, y = 10, label = "Subject \nEmpower & Involve")+
+                           annotate("text", x = 1.3, y = 10, label = "Subject \nEmpower & Involve")+
                            scale_y_continuous(breaks=seq(0, 10, 2), limits = c(0,10))+
                            scale_x_continuous(breaks=seq(0, 10, 2),  limits = c(0,10))+
                            scale_color_manual(name = "Stakeholder Type",
@@ -236,9 +222,27 @@ plotly::ggplotly(Figure1)
 ```
 
 
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
 *Source: Climate Change Action Plan for 2021-2023*
 
 *Note: own illustration for the project, author Temur Gugushvili*
+
+</p></span>
+</div>
+
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
+
+</p></span>
+</div>
+
 
 The matrix also depicts the stakeholders who, based on the current legal institutional arrangement should be involved in and contribute to the NDC implementation.
 
@@ -247,9 +251,7 @@ The matrix also depicts the stakeholders who, based on the current legal institu
 An SLR was used to analyze the NDC, Climate Action Plan and other Georgia’s development strategy documents; the selected documents were imported and analyzed in the MAXQDA (see appendix doc. 3). The family codes were predefined according to NDCs and overall research purpose. The approach led to track localization of the NDC commitments exploring responsible institutions, financial resources, policy documents, and types of contribution. The following family and sub codes were defined:
 
 -	Policy Documents;
-
 -	NDCs: Mitigation, Adaptation;
-
 -	Responsible institution.
 
 The coded segments were displayed in crosstabulation, MAXMaps, using MAXQDA special mixed-methods and visualization techniques such as Crosstab, code relation browser, and later stage MAXMap. These analysis methods were chosen to explore and provide best possible visualizations of the code intersections, such as national, municipal policy documents and NDCs (see figure 8). 
@@ -271,12 +273,12 @@ Each phase of the research, such as collection, storage, analysis and disseminat
 ### 3.1 Updating NDC
 
 
-<div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#8dc9b8; color: #69337A; border-left: solid #0d5440 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
-Key points:
+**Key points:**
 
 - The significant shift from the INDC document from the NDC includes the growth of conditional and unconditional mitigation targets and the addition of a vital asset of adaptation measure in the current NDC document;
 - Remarkably, MEPA was designated as the primary player in the process of developing the NDC document, while GIZ, as a donor organization, played a more facilitative role;
@@ -293,9 +295,19 @@ The comparison of the INDC and NDC reveals that Georgia modified the country's p
 ![Table 1. The comparison table of INDC and NDC](image/Picture1.png)
 
 
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
 *Source: NDC preparation and implementation in EaP countries: Comparative analysis of the first and the updated NDCs in Armenia, Azerbaijan, Belarus, Georgia, Republic of Moldova and Ukraine. https://eu4climate.eu/download/ndc-preparation-and-implementation-in-eap-countries/*  
 
 *Note: own illustration for the project, author Ekaterine Mikadze* 
+
+</p></span>
+</div>
+
+
 
 The following figure shows in more detail the sectoral targets and the emission levels in the reference year of the updated NDC.
 
@@ -355,9 +367,18 @@ Figure2
 
 ```
 
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
 *Source: Georgia's National Climate Change Strategy 2030*
 
 *Note: own illustration for the project, author Temur Gugushvili*
+
+</p></span>
+</div>
+
 
 Based on the abovementioned, it can be concluded that the international commitments are translated into the NDC, while short-term goals are reflected in the National Climate Action Plan. More importantly, than in previous years, the process of translating international commitments at the national level may be regarded as relatively state-owned. Based on the interview with the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) representative, we may conclude that the Ministry of Environment Protection and Agriculture (MEPA) drove the process, and the GIZ played a more facilitative role than was initially anticipated. The government established the Climate Change Council as an independent body with decision-making authority over climate change projects and programs. The council's actions and responsibilities are represented in the council's governing rules.
 
@@ -401,7 +422,11 @@ Figure3  <- ggplot(SummariseStakeholder, aes(Stakeholder_Involvement_en, Frequen
 
 Figure3
 ```
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+
+
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.*
@@ -417,12 +442,12 @@ Another significant development is on the reporting side. Previous practice in t
 ### 3.2 Financial allocations to implement NDC and its main sectors 
 
 
-<div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#8dc9b8; color: #69337A; border-left: solid #0d5440 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
-Key points: 
+**Key points:**
 
 - Different capital sources, such as investment, private and state-owned enterprises, loans, and grants, are examples of financial assistance to support the NDC's mitigation aims;
 - The climate action budget has been divided across seven economic sectors, with energy generation and transmission receiving the most attention;
@@ -505,7 +530,9 @@ Figure4
 
 ```
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: Climate Change Action Plan for 2021-2023; own illustration for the project, author Temur Gugushvili*
@@ -568,7 +595,9 @@ Figure5
 
 ```
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: Climate Change Action Plan for 2021-2023*
@@ -646,7 +675,9 @@ Figure6
 ```
 
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.*
@@ -719,7 +750,9 @@ Figure7
 ```
 
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.*
@@ -747,7 +780,9 @@ According to the survey, stakeholders agree that the necessary steps should be m
 
 <font size="2.5"> Table 2.Policy documents highlighted to reflect NDC commitments </font>
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.*
@@ -769,7 +804,9 @@ knitr::include_graphics('./Image/Picture6.png')
 
 
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the thematic analysis and SLR implemented for and within the scope of the exploratory study objectives.*
@@ -790,7 +827,9 @@ knitr::include_graphics('./Image/Picture7.png')
 
 
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the thematic analysis for and within the scope of the exploratory study objectives.*
@@ -812,7 +851,9 @@ knitr::include_graphics('./Image/Picture8.png')
 ```
 
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the thematic analysis for and within the scope of the exploratory study objectives.*
@@ -827,7 +868,7 @@ knitr::include_graphics('./Image/Picture8.png')
 
 
 
-<div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#8dc9b8; color: #69337A; border-left: solid #0d5440 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
@@ -877,7 +918,7 @@ Remarkably, on the one hand, there are strategies developed by donor programs an
 
 
 
-<div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#8dc9b8; color: #69337A; border-left: solid #0d5440 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
@@ -967,7 +1008,9 @@ Figure11
 
 
 
-<div class="warning" style='background-color:#abdcba; color: #231c3b; font-size: 80%; border-left: solid #66846f 4px; border-radius: 1px; padding:0.1em;'>
+<div class="warning" style='background-color:#c1c5c7; color: #082d40; border-left: solid #05161f 4px; border-radius: 2px; padding:0.2em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.*

@@ -6,7 +6,6 @@ title: "About Project"
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-
 In July 2021, Georgia has launched the project on "Tracing the Link Between Climate Justice Action and the NDCs," which is already being implemented in Brazil, Columbia, Switzerland, Ukraine, and Germany. 
 
 Since the International climate commitments are translated into national plans and strategies, resulting in local climate actions, the project's primary goal is to assess how well the NDC-ETF Framework allows for tracking local climate action in their respective capacities and capabilities and whether it helps or hinders energy access and climate just renewable energy systems. Thus, the case study will report on the following objectives: 
