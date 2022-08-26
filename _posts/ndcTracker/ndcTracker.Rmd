@@ -47,6 +47,15 @@ library(treemapify)
 
 
 
+**Disclaimer **
+
+*The views expressed in this information product do not necessarily reflect the views or policies either of the BUND, nor Ivane Javakhishvili Tbilisi State University. It is published under the responsibility of the authors.*
+
+
+**Acknowledgement**  
+
+*The authors would like to thank interview partners and survey respondents for their time, engagement and contribution. Special thanks go to Severin Ettl for his valuable comments and suggestions during the whole study.*
+
 ## Preface
 
 **Natalia Davlianidze, MA.**
@@ -73,6 +82,7 @@ In Chapter 3, the authors did an excellent job reporting on the key findings of 
 Despite the rather small spatial and temporal extent of the study, it should make an important contribution to both academics and practitioners working at the climate-energy nexus. Nevertheless, as well pointed out by the authors, due to evolving nature of the processes in the country, this work will need further revisions as Georgia progresses in its efforts to develop new policies and factor NDC commitments in the national documents. In addition, further exploratory studies examining the cases from other regions of Georgia with different socio-economic backgrounds and contexts will be a valuable contribution for creating a better understanding of existing spatial disparities and possible areas of cooperation between central and decentralized actors.
 
 Moving forward, more applied and place-based research is needed to further enrich our understanding of the local climate change context. Yet, such research is not an easy undertaking, especially in transitional economies such as Georgia. Led by a young generation of local researchers and academics, this report will present one attempt to diversify climate conversation in Georgia beyond policymakers' meeting rooms. For understanding the value of such research on the ground and supporting its implementation by the local research team, a special acknowledgment is due to BUND.
+
 
 ## Chapter 1. Introduction
 
