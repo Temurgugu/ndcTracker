@@ -1,7 +1,7 @@
 ---
 title: "“Tracing the link between Climate Justice Action and the NDCs” in Georgia"
 description: |
-  In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs.
+  In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.
 
 author:
   - name: Gvantsa Salukvadze 
