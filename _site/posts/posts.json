@@ -39,10 +39,8 @@
     "date": "2021-07-09",
     "categories": [],
     "contents": "\nThe project team developed visualization as a side project based on\nthe 2021-2023 Action Plan of Georgia’s 2030 Climate Strategy. The\ninteractive visualization explores responsible institutions for the\naction plan activities and shows how activities are supported and by how\nmuch.\nSome of the findings you can see here; rest\nexpore by yourself and share with us.\n\n\n\n\n\n\n",
-    "preview": "posts/climateactionplan/image/preview.png",
-    "last_modified": "2022-08-27T22:41:35+04:00",
-    "input_file": "climateactionplan.knit.md",
-    "preview_width": 578,
-    "preview_height": 357
+    "preview": "posts/climateactionplan/image/preview.gif",
+    "last_modified": "2022-08-27T23:15:14+04:00",
+    "input_file": "climateactionplan.knit.md"
   }
 ]
