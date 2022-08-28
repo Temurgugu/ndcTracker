@@ -12,7 +12,7 @@ navbar:
     - text: "Team"
       href: team.html
     - icon: fa fa-github
-      href: https://github.com/Temurgugu/ndcTracker
+      href: https://github.com/Temurgugu/RNDCTracker
 output: distill::distill_article
 collections:
   posts:
