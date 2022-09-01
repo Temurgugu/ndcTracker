@@ -56,6 +56,10 @@ library(treemapify)
 
 *The authors would like to thank interview partners and survey respondents for their time, engagement and contribution. Special thanks go to Severin Ettl for his valuable comments and suggestions during the whole study.*
 
+
+*This project is part of the International Climate Initiative (IKI). The Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU) supports this initiative on the basis of a decision adopted by the German Bundestag.*
+
+
 ## Preface
 
 **Natalia Davlianidze, MA.**
