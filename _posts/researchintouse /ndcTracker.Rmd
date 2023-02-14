@@ -17,7 +17,7 @@ author:
     affiliation: Ivane Javakhishvili Tbilisi State University
     affiliation_url: https://www.tsu.ge/
 
-date: 07-09-2022
+date: 15-12-2022
 preview: image/preview.png
 output:
   distill::distill_article:
@@ -198,7 +198,7 @@ According to the study, human resources and their competence in climate and ener
 
 
 ![Figure 1. Education of the municipality representatives in charge of CoM](/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Visualisation/CoM_CodeCloudEducation.png)
-<h5 class="small">*Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration, codecloud for the project*</h5>
+
 
 <font size="2"> 
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration, codecloud for the project*
