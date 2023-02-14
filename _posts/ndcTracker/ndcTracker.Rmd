@@ -58,6 +58,12 @@ library(treemapify)
 *The authors would like to thank interview partners and survey respondents for their time, engagement and contribution. Special thanks go to Severin Ettl for his valuable comments and suggestions during the whole study.*
 
 
+**Funding**
+
+
+*This project is part of the [International Climate Initiative (IKI)](https://www.international-climate-initiative.com/en?iki_cookie_check=1).  [The Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU)](https://www.bmu.de/en/) supports this initiative on the basis of a decision adopted by the German Bundestag. The study is commissioned by [Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)](https://www.bund.net/).*
+
+
 ## Preface
 
 **Natalia Davlianidze, MA.**
@@ -191,7 +197,7 @@ The categorization of the NDC Stakeholders on the Interest–Influence Matrix se
 ```{r  fig.height = 6, fig.width = 8, dev.args=list(bg='transparent', pointsize=10), fig.cap='Interest-Influence Matrix for NDC Stakeholders'}
 
 
-Stakeholder <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/stakeholder_updated.csv",
+Stakeholder <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/stakeholder_updated.csv",
                                  col_types = cols(Abbreviation = "c",
                                                   Interest = "n",
                                                   Influence = "n",
@@ -327,7 +333,7 @@ The following figure shows in more detail the sectoral targets and the emission 
 
 #Import data 
 
-CAPIndicators <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/CAPIndicator.csv",
+CAPIndicators <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/CAPIndicator.csv",
                                  col_types = cols(Goal = "c",
                                                   GgCO2e = "n",
                                                   Year = "c",
@@ -400,7 +406,7 @@ In comparison with the above outlined fact that the stakeholder engagement proce
 
 ```{r  fig.height = 6, fig.width = 5, dev.args=list(bg='transparent', pointsize=10), fig.cap='The number of the stakeholders involved in the NDC development process'}
 
-NDCSurvey <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/ndc_survey.csv")
+NDCSurvey <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/ndc_survey.csv")
 
 
 
@@ -477,7 +483,7 @@ Diversified capital sources, such as investment, private and state-owned enterpr
 
 ```{r  fig.height = 6.47, fig.width = 8.81, dev.args=list(bg='transparent', pointsize=10), fig.cap='Percentage distribution of finances by NDC’s mitigation goals and types of financial support'}
 
-ClimateAction <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/ClimateAction.csv",
+ClimateAction <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/ClimateAction.csv",
                                  col_types = cols(Goal = "c",
                                                   Objective = "c",
                                                   Activity = "c",
@@ -557,7 +563,7 @@ In order to outline the key players and their responsibilities in the NDC commit
 ```{r  fig.height = 6.47, fig.width = 8.81, dev.args=list(bg='transparent', pointsize=10), fig.cap='Number of activities by responsible institutions and NDC'}
 
 
-Institution <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/ClimateAction.csv",
+Institution <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/ClimateAction.csv",
                                  col_types = cols(Goal = "c",
                                                   Objective = "c",
                                                   Activity = "c",
@@ -627,7 +633,7 @@ Based on the survey data analysis, the stakeholders' perspectives on municipalit
 
 ```{r  fig.height = 6.47, fig.width = 8.81, dev.args=list(bg='transparent', pointsize=10), fig.cap='Evaluation of the municipalities climate mitigation and/or adaptation measures'}
 
-NDCSurvey <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/ndc_survey.csv")
+NDCSurvey <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/ndc_survey.csv")
 
 
 
@@ -707,7 +713,7 @@ According to survey respondents, the role of local self-government in all areas 
 
 
 
-ndc_survey <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/ndc_survey.csv")
+ndc_survey <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/ndc_survey.csv")
 
 ndc_survey_Role <- ndc_survey %>%
   select(Respondents:Municipality_Role_CAP_7)

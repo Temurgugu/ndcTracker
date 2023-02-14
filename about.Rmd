@@ -1,14 +1,12 @@
 ---
-title: "About Project"
+title: "About initiative"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In July 2021, Georgia has launched the project on "Tracing the Link Between Climate Justice Action and the NDCs," which is already being implemented in Brazil, Columbia, Switzerland, Ukraine, and Germany. 
-
-Since the International climate commitments are translated into national plans and strategies, resulting in local climate actions, the project's primary goal is to assess how well the NDC-ETF Framework allows for tracking local climate action in their respective capacities and capabilities and whether it helps or hinders energy access and climate just renewable energy systems. Thus, the case study will report on the following objectives: 
+The ndcTracker initiated as a side project of the "Tracing the Link Between Climate Justice Action and the NDCs, which launched in July 2021. The project's primary goal was to assess how well the NDC-ETF Framework allows for tracking local climate action in their respective capacities and capabilities and whether it helps or hinders energy access and climate just renewable energy systems. Thus, the case study will report on the following objectives: 
 
 1. The traceability/translation of international climate commitments to national and local climate plans;
 1. Authorities’ consistency in reporting on the implementation of 
@@ -18,5 +16,13 @@ and national climate action;
 1. The traceability/recognition and contribution of the of 
 community-based renewable energy projects.
 
+Since than the ndcTracker provide great help for the [research team](https://ndctracker.netlify.app/team.html) to distribute climate chnage research findings and make the raw data available for other stakeholders. The ndcTracker used for the follow projects:
 
-This project is part of the [International Climate Initiative (IKI)](https://www.international-climate-initiative.com/en?iki_cookie_check=1).  [The Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU)](https://www.bmu.de/en/) supports this initiative on the basis of a decision adopted by the German Bundestag. The study is commissioned by [Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)](https://www.bund.net/).
+1.
+1.
+
+Projects supported by following organisations:
+
+[Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)](https://www.bund.net/)
+[UNDP Georgia](https://www.undp.org/georgia)
+

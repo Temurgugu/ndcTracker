@@ -27,9 +27,8 @@ Ekaterine Mikadze is an environmental policy specialist, currently working as EU
 Currently, Temur Gugushvili is working at the Food and Agriculture Organization (FAO) Representation in Georgia as Researcher. At the same time, He is a PhD Candidate at Tbilisi State University, Department of Sociology. His academic career already includes several impactful research projects focusing on rural and mountain development. Temur is researching international, public and academic sectors. He believe that the researcher’s primary role is to explore the hitherto hidden and spread it in an understandable way to the relevant stakeholders. For this reason, Temur synthesise in practice social science theories, methods and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley, etc.
 
 
-*Project Contact:*
+*Contact:*
 
-* <Severin.Ettl@bund.net> (Germany) 
 * <gvantsa.salukvadze955@sps.tsu.edu.ge> (Georgia) 
 
 

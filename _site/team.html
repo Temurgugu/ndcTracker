@@ -91,6 +91,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <title>ndcTracker: Project Team</title>
 
 
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -785,6 +786,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1859,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2376,7 +2384,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2452,56 +2460,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-article">
 <h2 id="gvantsa-salukvadze">Gvantsa Salukvadze</h2>
 <p><img src="image/gvantsa.jpeg" style="width:50.0%" /></p>
-<p>Gvantsa Salukvadze is a social scientist affiliated with the
-departments of Geography at Tbilisi State University and the University
-of Zurich, studying socio-economic transitions in mountain regions as a
-result of global change. She is curious about the role that tourism
-progress plays in transforming places and traditional livelihoods.
-Gvantsa applies inter and transdisciplinary methods to investigate these
-complex phenomena by leaving no stakeholder behind. Her experience
-includes international credentials gained in leading international
-universities and academic institutions. She has been part of several
-impactful scientific research projects funded by the Volkswagen
-Foundation, Austrian Development Cooperation, etc., to promote mountain
-development in the Georgian Caucasus. So far, Gvantsa has earned several
-academic accomplishments and awards, including Forbes 30 Under 30
-Georgia as a successful young scientist.</p>
+<p>Gvantsa Salukvadze is a social scientist affiliated with the departments of Geography at Tbilisi State University and the University of Zurich, studying socio-economic transitions in mountain regions as a result of global change. She is curious about the role that tourism progress plays in transforming places and traditional livelihoods. Gvantsa applies inter and transdisciplinary methods to investigate these complex phenomena by leaving no stakeholder behind. Her experience includes international credentials gained in leading international universities and academic institutions. She has been part of several impactful scientific research projects funded by the Volkswagen Foundation, Austrian Development Cooperation, etc., to promote mountain development in the Georgian Caucasus. So far, Gvantsa has earned several academic accomplishments and awards, including Forbes 30 Under 30 Georgia as a successful young scientist.</p>
 <h2 id="ekaterine-mikadze">Ekaterine Mikadze</h2>
 <p><img src="image/Imageeka.jpeg" style="width:50.0%" /></p>
-<p>Ekaterine Mikadze is an environmental policy specialist, currently
-working as EU4climate project manager at UNDP Georgia. She has a working
-experience for the government and civil society organizations in
-Georgia, including the Climate Change and European Integration
-departments of the Ministry of Environmental Protection and Agriculture.
-Ekaterine obtained her MSc degree in Environmental Technology from the
-Imperial College London (2020) and MSc degree in Environmental
-governance from Albert Ludwig University, Germany (2015). Her research
-and professional interests include climate change and circular
-economy.</p>
+<p>Ekaterine Mikadze is an environmental policy specialist, currently working as EU4climate project manager at UNDP Georgia. She has a working experience for the government and civil society organizations in Georgia, including the Climate Change and European Integration departments of the Ministry of Environmental Protection and Agriculture. Ekaterine obtained her MSc degree in Environmental Technology from the Imperial College London (2020) and MSc degree in Environmental governance from Albert Ludwig University, Germany (2015). Her research and professional interests include climate change and circular economy.</p>
 <h2 id="temur-gugushvili">Temur Gugushvili</h2>
-<p><img
-src="https://temurgugushvili.ge/author/temur-gugushvili/avatar_hu458d9f250d4c51d172b80f9ae4eaf7ec_139912_270x270_fill_q90_lanczos_center.jpg"
-style="width:50.0%" /></p>
-<p>Currently, Temur Gugushvili is working at the Food and Agriculture
-Organization (FAO) Representation in Georgia as Researcher. At the same
-time, He is a PhD Candidate at Tbilisi State University, Department of
-Sociology. His academic career already includes several impactful
-research projects focusing on rural and mountain development. Temur is
-researching international, public and academic sectors. He believe that
-the researcher’s primary role is to explore the hitherto hidden and
-spread it in an understandable way to the relevant stakeholders. For
-this reason, Temur synthesise in practice social science theories,
-methods and information handling tools, such as R/Rstudio, QGIS, SPSS,
-Excel, Access, MAXQDA, Mendeley, etc.</p>
-<p><em>Project Contact:</em></p>
+<p><img src="https://temurgugushvili.ge/author/temur-gugushvili/avatar_hu458d9f250d4c51d172b80f9ae4eaf7ec_139912_270x270_fill_q90_lanczos_center.jpg" style="width:50.0%" /></p>
+<p>Currently, Temur Gugushvili is working at the Food and Agriculture Organization (FAO) Representation in Georgia as Researcher. At the same time, He is a PhD Candidate at Tbilisi State University, Department of Sociology. His academic career already includes several impactful research projects focusing on rural and mountain development. Temur is researching international, public and academic sectors. He believe that the researcher’s primary role is to explore the hitherto hidden and spread it in an understandable way to the relevant stakeholders. For this reason, Temur synthesise in practice social science theories, methods and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley, etc.</p>
+<p><em>Contact:</em></p>
 <ul>
-<li><a href="mailto:Severin.Ettl@bund.net"
-class="email">Severin.Ettl@bund.net</a> (Germany)</li>
-<li><a href="mailto:gvantsa.salukvadze955@sps.tsu.edu.ge"
-class="email">gvantsa.salukvadze955@sps.tsu.edu.ge</a> (Georgia)</li>
+<li><a href="mailto:gvantsa.salukvadze955@sps.tsu.edu.ge" class="email">gvantsa.salukvadze955@sps.tsu.edu.ge</a> (Georgia)</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2513,7 +2483,10 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="reuse">Reuse</h3>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

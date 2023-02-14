@@ -1,6 +1,8 @@
 ---
 title: "Climate Action Plan 2021-2023 (Visualisation)"
 description: |
+  The project team developed visualization as a side project based on the 2021-2023 Action Plan of Georgia’s 2030 Climate Strategy. The interactive visualization explores responsible institutions for the action plan activities and shows how activities are supported and by how much.
+
 author:
   - name: Temur Gugushvili 
     url: https://temurgugushvili.ge/
@@ -37,7 +39,7 @@ Some of the results you can find [here](https://ndctracker.netlify.app/posts/ndc
 ```{r  fig.height = 6, fig.width = 9, dev.args=list(bg='transparent', pointsize=10)}
 
                                                 
-ClimateAction <- readr::read_csv("/Users/macbook/Documents/research project/fol_2021/ndcTracker/RNDCTracker/Data/ClimateAction.csv",
+ClimateAction <- readr::read_csv("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Data/ClimateAction.csv",
                                  col_types = cols(Goal = "c",
                                                   Objective = "c",
                                                   Activity = "c",
