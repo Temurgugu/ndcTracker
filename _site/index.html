@@ -91,6 +91,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <title>ndcTracker</title>
 
 
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -785,6 +786,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1859,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2376,7 +2384,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2576,6 +2584,25 @@ function init_posts_list() {
 <div class="posts-container posts-apply-limit l-page">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="ndcTracker">ndcTracker</h1>
+<a href="posts/researchintouse /" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 14, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">Gvantsa Salukvadze</div>
+<div class="dt-author">Natia Kekenadze</div>
+<div class="dt-author">Temur Gugushvili</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="posts/researchintouse /ndcTracker_files/figure-html5/unnamed-chunk-1-1.png"/>
+</div>
+<div class="description">
+<h2>Action for climate reaction: research-into-use for local governments</h2>
+<div class="dt-tags"></div>
+<p>In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.</p>
+</div>
+</a>
 <a href="posts/ndcTracker/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":[]}</script>
 <div class="metadata">
@@ -2595,29 +2622,10 @@ function init_posts_list() {
 <p>In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.</p>
 </div>
 </a>
-<a href="posts/researchintouse /" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">July 9, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Gvantsa Salukvadze</div>
-<div class="dt-author">Natia Kekenadze</div>
-<div class="dt-author">Temur Gugushvili</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/researchintouse /ndcTracker_files/figure-html5/unnamed-chunk-1-1.png"/>
-</div>
-<div class="description">
-<h2>Action for climate reaction: research-into-use for local governments</h2>
-<div class="dt-tags"></div>
-<p>In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.</p>
-</div>
-</a>
 <a href="posts/climateactionplan/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":[]}</script>
 <div class="metadata">
-<div class="publishedDate">July 8, 2021</div>
+<div class="publishedDate">July 9, 2021</div>
 <div class="dt-authors">
 <div class="dt-author">Temur Gugushvili</div>
 </div>
@@ -2647,8 +2655,7 @@ function init_posts_list() {
 
 
 <div class="d-article">
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2660,7 +2667,10 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="reuse">Reuse</h3>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->
