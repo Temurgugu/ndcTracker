@@ -206,9 +206,21 @@ knitr::include_graphics("image/CoM_CodeCloudEducation.png")
 
 ```
 
-<font size="2"> 
-*Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration, codecloud for the project*
-</font>
+
+
+>Source: The results of the survey implemented for and within the scope of the exploratory study objectives. | Note: own illustration, codecloud for the project
+
+
+
+3. Third item with a hidden code block
+<details>
+  <summary>Example</summary>
+  ```
+  long console output here
+  ```
+</details>
+
+
 
 One of the significant challenges in the study process was highlighted as the competency of those participating in the SEAP/SECAP elaboration process. Interestingly, almost all signatory cities specify the need for technical knowledge and training in various fields, such as (i) project management (for effective collaboration with other departments); (ii) technical competencies (energy efficiency, energy management, renewable energies); (iii) data management (to develop a general methodology for screening outlier energy-activity observations), and (iv) the use of statistical methods for emissions estimation and forecasting) (access to financial instruments or funding possibilities). One respondent even stated that the SEAP elaboration process was halted years ago owing to a knowledge deficit.
 
@@ -250,7 +262,7 @@ As the study revealed, the following are the primary statistical or second infor
 The Covenant of Mayors makes a CO2 and/or GHG inventory mandatory. The reason for this is apparent: An inventory is needed to assess the attainment of targets. It identifies the main emitting sectors and prioritizes areas for action. According to the results, the survey participants consider the CO2 and GHG inventory primarily significant to design and to implement climate policies; The respondents evaluated the importance of inventory on a 5-Point Likert Scale from 1 (not important) to 5 (very important), the average assessment was very high - 4.2, 20 municipalities assessed as "important" or "very important" in comparison with only one city considered inventory "not important". However, half of the municipalities (13 participant cities) have never implemented it (see fig. 2).
 
 
-```{r , echo = FALSE, message = FALSE, warning=FALSE, fig.height = 7, fig.width = 7, dev.args=list(bg='transparent', pointsize=10), fig.cap='NDC sectors where the local self-government role should be enhanced'}
+```{r, echo = FALSE, message = FALSE, warning=FALSE, fig.height = 7, fig.width = 7, dev.args=list(bg='transparent', pointsize=10), fig.cap='NDC sectors where the local self-government role should be enhanced'}
 
 
 

@@ -1,0 +1,67 @@
+---
+title: "გზავნილი კლიმატის ცვლილების საპასუხოდ: კარგი პრაქტიკები ადრესატი მუნიციპალიტეტებისთვის"
+description: |
+  ბროშურა მომზადებულია კვლევითი პროექტის "კლიმატის ცვლილების საპასუხოდ: კვლევაზე დაფუძნებული პრაქტიკა ადგილობრივი ხელისუფლების საქმიანობისთვის" ფარგლებში
+
+author:
+  - name: Gvantsa Salukvadze 
+    url: https://example.com/norajones
+    affiliation: Ivane Javakhishvili Tbilisi State University
+    affiliation_url: https://www.tsu.ge/
+  - name: Natia Kekenadze 
+    url: 
+    affiliation: 
+    affiliation_url: 
+  - name: Temur Gugushvili 
+    url: https://temurgugushvili.ge/
+    affiliation: Ivane Javakhishvili Tbilisi State University
+    affiliation_url: https://www.tsu.ge/
+
+date: 12-15-2022
+preview: image/preview.png
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+    toc_float: true
+citation_url: https://ndctracker.netlify.app/posts/ndctracker/
+slug: Saluqvadzeetal2022
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+
+```
+
+
+*მომზადებულია გაეროს განვითარების პროგრამის (UNDP) ინიციატივის Climate Promise ფარგლებში, როგორც ეროვნულ დონეზე განსაზღვრული წვლილის (NDC) მხარდაჭერის პროგრამის ნაწილი, NDC თანამშრომლობის ხელშეწყობით, გერმანიის, იაპონიის, ევროკავშირის, გაერთიანებული სამეფოს, შვედეთის, ესპანეთის, ბელგიის, ისლანდიის, იტალიის და პორტუგალიის მთავრობების, და გაეროს განვითარების პროგრამის (UNDP) ძირითადი დონორების გულუხვი დაფინანსებით.*
+
+*მომზადებულია კვლევითი პროექტის "კლიმატის ცვლილების საპასუხოდ: კვლევაზე დაფუძნებული პრაქტიკა ადგილობრივი ხელისუფლების საქმიანობისთვის" ფარგლებში*
+
+
+```{r out.height = "460px", out.width='800px', echo=F}
+knitr::include_graphics("./image/Climathon_Brochure_Final.pdf")
+```
+
+
+**მოამზადა:**
+სითი ინსტიტუტი საქართველო (CIG)
+მისამართი
+პეკინის ქუჩა 31
+0160 თბილისი, საქართველო
+info@cig.ge
+
+ავტორები:
+გვანცა სალუქვაძე
+ნათია კეკენაძე
+თემურ გუგუშვილი
+
+კონტრიბუტორები:
+მალხაზ მერაბიშვილი
+ლელა მდინარაძე
+ელენე დარჯანია
+
+დიზაინი:
+ანდრო ქორთუა

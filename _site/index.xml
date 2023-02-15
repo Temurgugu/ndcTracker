@@ -7,7 +7,7 @@
     <description>ndcTracker provide great help for the research team to distribute climate change research findings and make the raw data available for researchers and stakeholders.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Action for climate reaction: research-into-use for local governments</title>
       <dc:creator>Gvantsa Salukvadze</dc:creator>
@@ -16,8 +16,19 @@
       <link>https://ndcTracker.netlify.app/posts/researchintouse </link>
       <description>In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.</description>
       <guid>https://ndcTracker.netlify.app/posts/researchintouse </guid>
-      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       <media:content url="https://ndcTracker.netlify.app/posts/researchintouse /image/CoM_CodeCloudEducation.png" medium="image" type="image/png" width="2604" height="798"/>
+    </item>
+    <item>
+      <title>გზავნილი კლიმატის ცვლილების საპასუხოდ: კარგი პრაქტიკები ადრესატი მუნიციპალიტეტებისთვის</title>
+      <dc:creator>Gvantsa Salukvadze</dc:creator>
+      <dc:creator>Natia Kekenadze</dc:creator>
+      <dc:creator>Temur Gugushvili</dc:creator>
+      <link>https://ndcTracker.netlify.app/posts/goodpractices</link>
+      <description>ბროშურა მომზადებულია კვლევითი პროექტის "კლიმატის ცვლილების საპასუხოდ: კვლევაზე დაფუძნებული პრაქტიკა ადგილობრივი ხელისუფლების საქმიანობისთვის" ფარგლებში</description>
+      <guid>https://ndcTracker.netlify.app/posts/goodpractices</guid>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://ndcTracker.netlify.app/posts/goodpractices/image/preview.png" medium="image" type="image/png" width="687" height="489"/>
     </item>
     <item>
       <title>“Tracing the link between Climate Justice Action and the NDCs” in Georgia</title>
