@@ -13,6 +13,8 @@ navbar:
       href: team.html
     - icon: fa fa-github
       href: https://github.com/Temurgugu/RNDCTracker
+    - icon: fa fa-rss
+      href: index.xml
 output: distill::distill_article
 google_analytics: "G-NC3CZM04ET"
 creative_commons: CC BY
