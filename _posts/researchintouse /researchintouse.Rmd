@@ -196,9 +196,12 @@ All of this has a significant impact on data collection and analysis. Especially
 
 According to the study, human resources and their competence in climate and energy efficiency issues are equally challenging. The survey questionnaire was filled out by the municipality's person in charge of coordinating activities to carry out CoM responsibilities. In some cases, the in-depth interviews revealed that the assigned representatives to CoM find it challenging to even familiarize themselves with climate change and energy topics. The primary reason for this is that mostly CoM coordination is combined with other full-time jobs in different municipality departments that do not often directly relate to CoM issues or climate. Despite the fact that formal education matters for understanding and leading the CoM activities, only five respondents have formal high education in environmental science education. Other prevalence of education were management and administration (5), Engineering (4), economics (3) and law (3)(see fig.1).
 
+```{r , echo = FALSE, message = FALSE, warning=FALSE, fig.height = 6, fig.width = 9, dev.args=list(bg='transparent', pointsize=10), fig.cap= "Education of the municipality representatives in charge of CoM"}
 
-![Figure 1. Education of the municipality representatives in charge of CoM](/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Visualisation/CoM_CodeCloudEducation.png)
 
+knitr::include_graphics("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Visualisation/CoM_CodeCloudEducation.png")
+
+```
 
 <font size="2"> 
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration, codecloud for the project*
@@ -223,6 +226,7 @@ The study uncovered many ways, such as public hearings, other consultation and p
 In implementing CoM commitments, the study has identified various ways the signatory municipalities are supported by international (donor) organizations, NGOs, the private sector and other stakeholders. Particularly notable are the following interactions: 
 
 (i) The main governance body mentioned by the respondents collaborating with signatory cities was the Ministry of environmental protection and agriculture of Georgia, which created an electronic portal with the Regional Environmental Center for the Caucasus (REC Caucasus). The Electronic system provides the implementations of fulfilling the commitments undertaken by the covenant of mayors' signatory municipalities by generating the SECAP and monitoring reports. 
+
 (ii) International institutions and NGOs contribute to the knowledge transfer by training the municipality personnel. Moreover, data about the consumed energy was collected and processed employing a special form, which the REC Caucasus provided to the municipalities.
 
 
@@ -230,6 +234,7 @@ In implementing CoM commitments, the study has identified various ways the signa
 
 
 On the other hand, collaboration with local NGOs and International organizations like the UNDP, EBRD, and Polish Solidarity fund provides financial support for climate action project implementation, which also involves expert engagement, financing resources for each step of SEAP/SECAP elaboration, climate action project implementation, material resources (for instance waste pressing machines); 
+
 (III) Signatory municipalities indicate an active partnership with the private sector, especially with tourism and agro-sector representatives. Regarding data generation, SOCAR petroleum was named as one of the primary data sources. Followed by local gas stations, wood processing enterprises, Energo Pro, and other potential investors who want to install solar panels in municipalities territories are main collaborators in the SEAP/SECAP elaborating process, as well. 
 
 ### 3.2 Availability of data required for SEAP/SECAP implementation 
@@ -334,6 +339,7 @@ CoM_Figure2_EN_Compare
 **SEAP/SECAP projects and data collection practices by sector**
 
 With the BEI results in hand, the local government may identify the highest emitting sectors in their region. Prior to that, municipalities need to collect information/data and then quantify the effort required to reach the minimum target set by the initiative. Figure 3 depicts the distribution of deployed SEAP/SECAP projects and data-gathering practices sector by sector to make climate-based and energy-efficient decisions. Waste management, transportation, street lighting, forestry, energy generation and transport, buildings, and agriculture appear to be the frequently selected sectors for planning and executing climate-based initiatives. 
+
 The survey identified buildings and transportation based on 21 and 18 municipality responses as the top two sectors in which self-governments are making data-driven climate decisions. In contrast, data-driven climate-smart, energy-efficient actions and projects in the agriculture, outdoor lighting, and forestry sectors were assessed rather weakly.
 
 ```{r , echo = FALSE, message = FALSE, warning=FALSE, fig.height = 6, fig.width = 9, dev.args=list(bg='transparent', pointsize=10), fig.cap= "SEAP/SECAP projects and data collection practices by sector"}
@@ -501,7 +507,7 @@ CoM_Figure23_EN_distribution <- ggplot(CoM_data_quality, aes(Assessment_ge, Avar
                               text = paste("Municiaplity: ", QU2,
                                             "<br>Avarage:", Avarage)
                                   )) + 
-  geom_boxplot(width = 0.4, width.errorbar = 0.5, outlier.shape = NA, alpha=0.9)+
+  geom_boxplot(width = 0.4, outlier.shape = NA, alpha=0.9)+
   geom_jitter(color="black", size=0.4, alpha=0.9) +
   theme_minimal(base_family="Sylfaen")+
   theme(legend.position = "none")+
@@ -631,6 +637,7 @@ CoM_Figure23_EN
 *Municipal buildings*
 
 Municipal buildings, in general, comprise administrative, public service, and educational buildings. Figure 7 depicts the responses obtained about the availability and collection of energy data for municipal buildings. Data from the energy industry is one of the most important information sources for the CoM initiative's commitments.
+
 According to the survey findings, the majority of the participating municipalities (16 cities) have gathered data in this sector, mainly at the administrative building level. Only a few cities collect data through aggregated data collecting, estimates, or other methods. In terms of data units, the largest number of municipalities (14 cities) calculate energy and consumption costs data. Most cities report that they do not gather energy data for other municipal public buildings.
 
 
@@ -733,6 +740,7 @@ CoM_Figure15_EN
 **Data availability for Street lighting**
 
 In line with the survey results, municipal-level data is most readily available in the street lighting sector. Figure 8 shows that all signatory municipalities gather data in at least one of the five key areas (categories listed in the figure below). Most cities (21 municipalities) have data on street lighting expenses over time. In addition, 17 cities provide statistics on the overall number of energy-efficient LED bulbs that have been changed. However, fewer cities offer specific information regarding the installed amount of bulbs/type of bulbs/power of each bulb compared to the data in other categories. Only 15 municipalities can process and utilize it for project planning if necessary.
+
 It should be noted that a large part of the climate action projects carried out within the framework of COM is related to the replacement of street lights with energy-efficient bulbs. For example, Rustaveli city and Kvareli municipality indicate that 80% of street lights in the municipality have been replaced with LED bulbs.
 
 
@@ -776,8 +784,11 @@ CoM_Figure37_EN <- ggplot(CoM_en_street_light_EN, aes(Street_light_EN, n)) +
 **Data availability in the waste management sector**
 
 Waste as among mandatory sectors for signatory municipalities has also been studied. According to the online survey, three signatory municipalities out of 26 do not gather information about waste management. However, other cities use different approaches to collecting waste data. For instance, Sighnaghi municipality uses an electronic map for systematic waste management. Bolnisi municipality works with other municipalities and NGOs to develop a sustainable waste management system and action plan for 2023. The person responsible for the Bolnisi municipality remarked that they needed external support due to a lack of knowledge and experience in the waste sector.
+
 Gurjaani Municipality indicates that they are regularly gathering data for the waste sector. Tianeti Municipality highlighted the lack of waste equipment, which is key to implementing sustainable waste action projects.  
+
 Tbilisi and Batumi municipalities have successful experience in terms of plastic waste collection. With the support of UNDP, a behavioral experiment was conducted in these two cities. According to this project, about 40 transparent bins were placed, which positively affected the sorting and processing of plastic bottles by citizens and local authorities. It is worth noting that other municipalities were also interested in the implemented project. Batumi City Hall had active communication with Lagodekhi and Samtredia local authorities.
+
 Figure 10 depicts the sectors in which most municipalities gather data/information, namely municipal buildings (18 municipalities), waste and transport (17 municipalities), and energy (11 municipalities). In contrast, the fewest respondents mention using data for public safety, information and technological communications.
 
 ```{r , message = FALSE, warning=FALSE, fig.height = 6, fig.width = 9, dev.args=list(bg='transparent', pointsize=10), fig.cap="Data collected in the risk and vulnerability assessment process by sector"}
@@ -828,6 +839,7 @@ CoM_Figure50_EN
 **Access to data in developing risk and vulnerability assessments**
 
 Local governments might use the climate risk and vulnerability assessment (RVA) to identify current climate risks and how they are anticipated to evolve in the future. The methodological framework for adaptation assesses current risk, vulnerability, and impact circumstances. Local governments must disclose information regarding the type of climate hazard and its consequences, as well as anticipated changes in hazard timeframe, frequency, intensity, vulnerable sectors and populations, and adaptation plans. As a result of this commitment, local governments must rely on a variety of databases and sources.
+
 The responses obtained on the 5-point Likert scale in the below-illustrated diagram show that data on precipitation and heat, as well as drought and fires are among the most accessible. However, based on the survey results, data on storm and movement of rocks with 2.6 and 2.4 points is only available to a small extent in developing the risk and vulnerability assessment. 
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, fig.height = 16, fig.width = 19, dev.args=list(bg='transparent', pointsize=10), fig.cap= "Access to data in developing risk and vulnerability assessments"}
@@ -927,7 +939,9 @@ In the frame of the interviews, the questions probed deeper into the notion of l
 
 
 ### 3.4 Challenges and needs
+
 Understanding the impact of the review Baseline Emission Inventory (BEI) and Risk and Vulnerability Assessment (RVA), how they change over time, and how local governments might act in the short, medium, and long term is critical for SECAP development. The BEI evaluation, based on local data, offers a detailed picture of the municipality's present energy concerns and climate change policy.
+
 As the study revealed, data collection is a challenging and complex task in Georgia's signatory municipalities. Concrete demands that cities have in the data-gathering process have been uncovered as a result of online survey and in-depth interviews. In terms of time constraints, municipalities have a significant challenge in gaining access to specific data in the public and private sectors.
 
 >Public access to information is not available. To get the essential information, one must apply in writing to the appropriate agencies, which takes time and involves certain bureaucracy. (Kutaisi municipality)
@@ -937,6 +951,7 @@ According to the narratives, it is crucial for Gurjaani municipality to have dat
 >Data was processed manually, and information was collected according to organizations. It is desirable to create a unified automated database system. (Batumi municipality)
 
 Within the scope of the research, representatives of several municipalities noted that in addition to filling in the data manually, they also have field trips to collect it because there is no other way, e.g., electronic database for retrieval.
+
 Signatory municipalities emphasize the need to develop methodological approaches prior to performing BEI and RVA. According to the study, there are many cases when local authorities do not know what sort of information, data, or reports they need to compile BEI and RVA. The signatories' principal demand in response to this dilemma is for training and working sessions on methodological strategies.
 
 >We, the representatives of municipalities, have to visit the cities personally. They may not understand what data we need, and we will have to explain all this; we will have to inspect and describe everything personally. (Lagodekhi municipality) 
@@ -952,11 +967,17 @@ She is the only person who can work on all CoM issues; there is no separate depa
 ## Chapter 5. Final Conclusions
 
 Overall, the research clearly shows that member municipalities of the CoM have considerable disparities on topics covered by the survey.
+
 Notably, the majority of municipalities acknowledge that the CO2 or GHG-inventory is crucial in developing and implementing SEAP/SECAP policies. Yet, none of them carries out this practice regularly, and half of them (13 cities) have never carried out CO2 or GHG inventory in their municipality. There is also quite a low level of awareness of what the inventory means and is needed for; hence, the municipality representatives repeatedly state the need to train human resources with more specific climate-related knowledge, which will be a prerequisite for future CO2 inventory.
+
 The number of employees in charge of SEAP/SECAP implementation varies significantly amongst participating municipalities. In some circumstances, it is determined by the size of the city and, of course, the number of personnel employed by the city hall departments. Specifically, there is a paucity of climate departments, due to which reconciliation of climate concerns with other services such as tourism and international projects take place. It plainly demonstrates how ineffective the administrative structure is in this regard. The city halls' shortage of qualified people was highlighted herein, which hinders municipalities in various ways. Overall, this considerably impedes the execution of CoM commitments at the local level, exposing cities as more ambitious participants in the effort than effective implementers and agents of change in certain cases.
+
 CoM signatory municipalities have different experiences in their territories regarding data availability, reliability and quality. Based on the survey results, street lighting with the highest score in all four categories compared to the other three sectors, such as transport, waste management and buildings. 
+
 It should be underlined that the signatory municipalities lack the resources to fulfill the needs of the CoM, particularly in terms of integrating climate-smart and energy-efficient solutions into their overall capacity and activities.
+
 SEAP implementation and data collection have been studied in 26 Georgian municipalities that have signed on the CoM commitments. The study concludes that on the one hand, municipalities lack knowledge on how to set responsibilities and procedures to implement the CoM commitments. On the other hand, the self-government struggles with data collection, data analysis, and municipalities lack qualified personnel for energy management. 
+
 Based on the collected data, the municipalities highlighted that SEAP/SECAP activities are only considered for implementation when external financing is available and short-term projects are based on external funding and knowledge support as well. The main activities in SEAPs mostly included renovation projects for municipal buildings and public lighting. 
 
 ## Chapter 6. A look ahead: Perspectives and suggestions
@@ -965,20 +986,93 @@ Climate change is a major global challenge that requires data-driven decision-ma
 Within the framework of the CoM, the figure below gives an overview of the variables that contribute to success as well as the problems that are connected with working with municipalities.
 
 
-| Challenges      | Target group | Success factors | 
-| :---------  | :----------- |  :----------- |  
-| - All signatory municipalities practice multi-departmental and cross-sector cooperation to achieve the CoM objectives, which is a challenging and time-consuming process.
-- There are many interruptions within data collection, which requires several departmental cooperation, and there are no rapid mechanisms available for cross-sharing essential data by sectors. | Cooperation | •	An adequate governance structure on the municipal levels and formation of particular working group for CoM (might be composed of personnel from several departments)| 
-|•	The municipality does not have the resources to collect the necessary data.
-•	Insufficient access to data – data unreliable
-•	Self-government struggles with data collection, data analysis, and municipalities lack qualified personnel for energy management. 
-•	The CoM responsible for addressing the data gap uses individuals living nearby as a source of experience-based knowledge.|Data availability | • Allocating resources to improve evidence-based practices. Data gathering, analysis, and implementation. Collaboration with academic institutions and universities in the collection of relevant data.
-• Overall, the challenge of data availability and CoM coordination of these data in the municipality requires continuous technical assistance, such as training, seminars, sharing of local and international experiences of other cities, and so on.
-• Municipal officials emphasize the significance of creating Energy Ombudsman positions.|
+### Cooperation
 
 
+<div class="warning" style='background-color: #aedff5; color: #042226; border-left: solid #00689D 4px; border-right: solid #00689D 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
+**Challenges**
+
+- All signatory municipalities practice multi-departmental and cross-sector cooperation to achieve the CoM objectives, which is a challenging and time-consuming process.
+- There are many interruptions within data collection, which requires several departmental cooperation, and there are no rapid mechanisms available for cross-sharing essential data by sectors.
+
+**Success factors**
+
+An adequate governance structure on the municipal levels and formation of particular working group for CoM (might be composed of personnel from several departments).
+
+</p></span>
+</div>
 
 
+### Data availability
+
+<div class="warning" style='background-color: #aedff5; color: #042226; border-left: solid #00689D 4px; border-right: solid #00689D 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
+
+**Challenges**
+
+- The municipality does not have the resources to collect the necessary data.
+- Insufficient access to data – data unreliable
+- Self-government struggles with data collection, data analysis, and municipalities lack qualified personnel for energy management. 
+- The CoM responsible for addressing the data gap uses individuals living nearby as a source of experience-based knowledge.
+
+**Success factors**
+
+- Allocating resources to improve evidence-based practices, including data gathering, analysis, and implementation. Collaboration with academic institutions and universities in the collection of relevant data.
+- Overall, the challenge of data availability and CoM coordination of these data in the municipality requires continuous technical assistance, such as training, seminars, sharing of local and international experiences of other cities, and so on.
+- Municipal officials emphasize the significance of creating Energy Ombudsman positions.
+
+</p></span>
+</div>
+
+### Human Resources
+
+<div class="warning" style='background-color: #aedff5; color: #042226; border-left: solid #00689D 4px; border-right: solid #00689D 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
+
+**Challenges**
+
+All signatory cities specify that competency of those human resources participating in the SEAP/SECAP elaborating process is one of the significant challenges.  There is a need for technical knowledge and training in various fields: project management; technical competencies; data management; the use of statistical methods for emissions estimation and forecasting; access to financial instruments or funding possibilities.
+
+**Success factors**
+
+- Strengthening human resources in the direction of climate change, energy efficiency, adding new personnel and positions in the municipality. Knowledge of the mentioned areas in the process of selecting new personnel.
+- Increase the coordination office's role in providing technical knowledge awareness and training for responsible individuals and working groups.
+
+</p></span>
+</div>
+
+### Learning and Innovation
+
+<div class="warning" style='background-color: #aedff5; color: #042226; border-left: solid #00689D 4px; border-right: solid #00689D 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
+
+**Challenges**
+
+- Vague understanding about CoM's aim, objectives and most crucially, the difference they make by signing the CoM.
+- Difficult access to investment funds and financing for which they need access to this type of information and assistance in fundraising.
+
+**Success factors**
+
+- Municipalities indicate that raising knowledge of the CoM among both cities and residents is critical.
+- Along with human resource training, it is thought that the methods in Georgian municipalities and those in European cities should be examined and compared.
+- The guideline/roadmap is required for cities to follow in order to put into effect regular compilation/use of CO2 or GHG inventory at municipalities. Municipalities will benefit from the pilot project since it will demonstrate them how it is done in parties with limited funds and human resources.
+- Using the notion of [climate-proofing](https://ec.europa.eu/commission/presscorner/detail/en/ip_21_3943) to integrate climate-smart practices into existing activities. 
+
+</p></span>
+</div>
 
 ## Abbreviations
 
