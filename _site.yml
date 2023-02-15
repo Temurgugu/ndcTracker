@@ -1,6 +1,7 @@
 name: "ndcTracker"
 title: "ndcTracker" 
-description: |
+description: | 
+ ndcTracker provide great help for the research team to distribute climate change research findings and make the raw data available for researchers and stakeholders.
 output_dir: "_site"
 base_url: https://ndcTracker.netlify.app/
 navbar:
@@ -27,5 +28,6 @@ cookie_consent:
 collections:
   posts:
     share: [twitter, linkedin, facebook]
+    feed_items_max: 50
     citations: true
 theme: "gugutheme.css"

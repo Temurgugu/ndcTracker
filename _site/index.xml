@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>ndcTracker</title>
+    <link>https://ndcTracker.netlify.app/</link>
+    <atom:link href="https://ndcTracker.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>ndcTracker provide great help for the research team to distribute climate change research findings and make the raw data available for researchers and stakeholders.
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Action for climate reaction: research-into-use for local governments</title>
+      <dc:creator>Gvantsa Salukvadze</dc:creator>
+      <dc:creator>Natia Kekenadze</dc:creator>
+      <dc:creator>Temur Gugushvili</dc:creator>
+      <link>https://ndcTracker.netlify.app/posts/researchintouse </link>
+      <description>In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.</description>
+      <guid>https://ndcTracker.netlify.app/posts/researchintouse </guid>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://ndcTracker.netlify.app/posts/researchintouse /image/CoM_CodeCloudEducation.png" medium="image" type="image/png" width="2604" height="798"/>
+    </item>
+    <item>
+      <title>“Tracing the link between Climate Justice Action and the NDCs” in Georgia</title>
+      <dc:creator>Gvantsa Salukvadze</dc:creator>
+      <dc:creator>Ekaterine Mikadze</dc:creator>
+      <dc:creator>Temur Gugushvili</dc:creator>
+      <link>https://ndcTracker.netlify.app/posts/ndcTracker</link>
+      <description>In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.</description>
+      <guid>https://ndcTracker.netlify.app/posts/ndcTracker</guid>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://ndcTracker.netlify.app/posts/ndcTracker/ndcTracker_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1920" height="1344"/>
+    </item>
+    <item>
+      <title>Climate Action Plan 2021-2023 (Visualisation)</title>
+      <dc:creator>Temur Gugushvili</dc:creator>
+      <link>https://ndcTracker.netlify.app/posts/climateactionplan</link>
+      <description>The project team developed visualization as a side project based on the 2021-2023 Action Plan of Georgia’s 2030 Climate Strategy. The interactive visualization explores responsible institutions for the action plan activities and shows how activities are supported and by how much.</description>
+      <guid>https://ndcTracker.netlify.app/posts/climateactionplan</guid>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://ndcTracker.netlify.app/posts/climateactionplan/image/preview.gif" medium="image" type="image/gif"/>
+    </item>
+  </channel>
+</rss>
