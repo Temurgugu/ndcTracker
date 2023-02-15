@@ -177,7 +177,9 @@ In order to protect the ethical principles, issues of confidentiality were discu
 
 
 ### Overall considerations
+
 This report is based on data collected through an online survey and qualitative interviews during November 2022. The initiative counts 26 committed cities and local authorities, covering a total population of 2,297,635 million inhabitants. Overall, the assessment shows that the Covenant of Mayors initiative is actively expanding throughout Georgia, with many new municipalities, including small towns, signing. Despite the ongoing interest and active participation, only ten of the 26 signatory cities were capable of submitting an action plan (SEAP). Throughout the research process, it was discovered that there is a high degree of responsibility and desire to participate in climate-related activities but a relatively low level of implementation at the local level. According to the data gathered, SEAP/SECAP implementation is highly dependent on a diverse set of resources (for example, human capital and data/information availability), the acquisition of which is a significant challenge for municipalities.
+
 Since the survey could only be filled by representatives of municipalities and local governments coordinating and executing SEAP and SECAP, the results give a (non-representative) but valuable insight into the situation, challenges, and constraints of SEAP/SECAP implementation and CoM commitments in general.
 
 ### Main findings
@@ -189,6 +191,7 @@ As all signatory municipalities participated in the online survey, the results a
 **Interdepartmental cooperation for CoM commitments**
 
 The decision-making body is an essential focus for the CoM effort; hence signatories are required/recommended to form a decision-making body to ensure the successful design, implementation, and monitoring of a SEAP/SECAP. It establishes a platform for multilevel climate and energy dialogues, including local governments, citizens, and other stakeholders. Local governments must include authorized SEAPs/SECAPs in relevant national and regional plans (e.g. NDC). An adequate governance structure is critical to a successful implementation in this environment. Local governments should improve communication across departments, including at the national level, and commence networking with other CoM signatories to share experiences. The study included a comprehensive review of municipal authorities responsible for carrying out and monitoring the CoM commitments. According to the findings, only Gurjaani and Dedoplistskaro municipalities indicate that a particular working group (composed of personnel from several departments) was formed by the mayor's order. The remaining cities identified individual departments, indicating that all signatory municipalities practice multi-departmental and cross-sector cooperation. Infrastructure, economic politics, finance, tourism, international relations, agriculture, transport, and municipal services are among the centrally accountable departments. Notably, in the case of Akhmeta municipality, Tusheti Protected Landscape Administration is responsible for creating SEAP/SECAP. According to the narratives, coordinating with other departments is a challenging and time-consuming process.
+
 All of this has a significant impact on data collection and analysis. Especially in the context of power dynamics and bureaucracy, respondents indicate that departments have a lower impact on the decision-making process, as they need approval from higher authorities at every level of data collection and analysis. Moreover, there are many interruptions within collecting data, which require several departmental cooperation, and there are no rapid mechanisms available for cross-sharing essential data by sectors.
 
 
@@ -199,7 +202,7 @@ According to the study, human resources and their competence in climate and ener
 ```{r , echo = FALSE, message = FALSE, warning=FALSE, fig.height = 6, fig.width = 9, dev.args=list(bg='transparent', pointsize=10), fig.cap= "Education of the municipality representatives in charge of CoM"}
 
 
-knitr::include_graphics("/Users/macbook/Documents/research project/fol_2022/ndcTracker/RNDCTracker/Visualisation/CoM_CodeCloudEducation.png")
+knitr::include_graphics("image/CoM_CodeCloudEducation.png")
 
 ```
 
