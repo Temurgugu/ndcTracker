@@ -29,5 +29,6 @@ collections:
   posts:
     share: [twitter, linkedin, facebook]
     feed_items_max: 50
+    subscribe: _subscribe.html
     citations: true
 theme: "gugutheme.css"
