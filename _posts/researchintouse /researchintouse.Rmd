@@ -1,7 +1,7 @@
 ---
 title: "Action for climate reaction: research-into-use for local governments"
 description: |
-  The report provides insights into the challenges and opportunities of implementing the CoM commitments on a municipal level. It will also explore the potential for data and information to support local climate action, and the role of municipalities in driving climate change initiatives. Our hope is that this report will be informative and useful for policymakers, municipal officials, and other stakeholders working towards a sustainable future.
+  In this report, we attempt to analyze how the commitments under the CoM are implemented on municipal levels. We aim to explore how the signatory municipalities use the data/information for climate actions and discuss the issue of current practices of municipalities in developing climate-related initiatives. It will be highlighted that data/information accessibility and availability have local-action consequences, which will be further explored in the study. The report provides insights into the challenges and opportunities of implementing the CoM commitments on a municipal level. It will also explore the potential for data and information to support local climate action, and the role of municipalities in driving climate change initiatives. Our hope is that this report will be informative and useful for policymakers, municipal officials, and other stakeholders working towards a sustainable future.
 
 
 author:
@@ -62,11 +62,6 @@ CoM_EU_GE_inventory <- readr::read_csv("/Users/macbook/Documents/research projec
 **Disclaimer **
 
 *The views expressed in this publication are those of the author(s) and do not necessarily represent those of the United Nations, including UNDP, the NDC Partnership, the governments of Germany, Japan, the European Union, United Kingdom, Sweden, Spain, Belgium, Iceland, Italy, Portugal or other UNDP’s core contributors.*
-
-
-**Acknowledgement**  
-
-
 
 **Funding**
 
@@ -207,7 +202,7 @@ knitr::include_graphics("image/CoM_CodeCloudEducation.png")
 
 ```
 
-<div class="warning" style='background-color: #afbdac; color: #042226; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
@@ -299,20 +294,18 @@ CoM_Figure2_EN <- ggplot(CoM_en_inventory, aes(ymax=ymax, ymin=ymin, xmax=4, xmi
 
 CoM_Figure2_EN
 
-ggsave("Visualisation/CoM_Figure2_EN.png", 
-       CoM_Figure2_EN,
-       width =35, 
-       height = 20, 
-       units = "cm", 
-       dpi = 400)
-
-
 ```
 
 
-<font size="2"> 
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
-</font>
+</span>
+</div>
+<span>
+</span>
 
 Based on the interviewed municipality representatives, the grounds for this include various reasons. Mostly, a lack of understanding of the significance and necessity of inventory, a lack of expertise in conducting it, and a shortage of resources (for example, the availability of a unified database).
 
@@ -335,26 +328,25 @@ CoM_Figure2_EN_Compare <- ggplot(CoM_EU_GE_inventory, aes(reorder(Country, +Numb
        fill = "CO2 or GHG-inventory")
   
 
-ggsave("Visualisation/CoM_Figure2_EN_Compare.png", 
-       CoM_Figure2_EN_Compare,
-       width =25, 
-       height = 13, 
-       units = "cm", 
-       dpi = 400)
-
 CoM_Figure2_EN_Compare
 
 ```
 
-<font size="2"> 
-*Source: The results (Georgia) of the survey implemented for and within the scope of the exploratory study objectives. Note: chart by Temur Gugushvili, adapted from Ralf Schüle, Jan Kaselofsky, Calvin Lai Ming Tsun (2018): Report “Evaluation the implementation of SEAP and SECAPs”, p. 14* 
-</font>
 
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+*Source: The results (Georgia) of the survey implemented for and within the scope of the exploratory study objectives. Note: chart by Temur Gugushvili, adapted from Ralf Schüle, Jan Kaselofsky, Calvin Lai Ming Tsun (2018): Report “Evaluation the implementation of SEAP and SECAPs”, p. 14* 
+</span>
+</div>
+<span>
+</span>
 
 
 **SEAP/SECAP projects and data collection practices by sector**
 
-With the BEI results in hand, the local government may identify the highest emitting sectors in their region. Prior to that, municipalities need to collect information/data and then quantify the effort required to reach the minimum target set by the initiative. Figure 3 depicts the distribution of deployed SEAP/SECAP projects and data-gathering practices sector by sector to make climate-based and energy-efficient decisions. Waste management, transportation, street lighting, forestry, energy generation and transport, buildings, and agriculture appear to be the frequently selected sectors for planning and executing climate-based initiatives. 
+With the BEI results in hand, the local government may identify the highest emitting sectors in their region. Prior to that, municipalities need to collect information/data and then quantify the effort required to reach the minimum target set by the initiative. Figure 4 depicts the distribution of deployed SEAP/SECAP projects and data-gathering practices sector by sector to make climate-based and energy-efficient decisions. Waste management, transportation, street lighting, forestry, energy generation and transport, buildings, and agriculture appear to be the frequently selected sectors for planning and executing climate-based initiatives. 
 
 The survey identified buildings and transportation based on 21 and 18 municipality responses as the top two sectors in which self-governments are making data-driven climate decisions. In contrast, data-driven climate-smart, energy-efficient actions and projects in the agriculture, outdoor lighting, and forestry sectors were assessed rather weakly.
 
@@ -422,24 +414,22 @@ CoM_Figure5_EN <- ggplot(CoM_en_project_data, aes(NDC_EN, n, group = TTable, fil
        y = "Number of municipalities",
        fill = "SEAP/SECAP Projects")
 
-
-  ggsave("Visualisation/CoM_Figure5_EN.png", 
-       CoM_Figure5_EN,
-       width =20, 
-       height = 10, 
-       units = "cm", 
-       dpi = 400)
-
-  
   
 CoM_Figure5_EN
 
 
 ```
 
-<font size="2"> 
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
-</font> 
+</span>
+</div>
+<span>
+</span>
+
 
 
 **Data quality in four sectors**
@@ -539,9 +529,16 @@ plotly::ggplotly(CoM_Figure23_EN_distribution, tooltip = "text")
 
 ```
 
-<font size="2"> 
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
-</font> 
+</span>
+</div>
+<span>
+</span>
+
 
 Figure 6, based on the average assessments, illustrates that the CoM signatory municipalities rated street lighting with the highest score in all four categories compared to the other three sectors, such as transport, waste management and buildings. Based on the responses, municipal officials rate data reliability, quality, and availability in the waste management and building sectors as very acceptable. However, the transportation sector receives the lowest rating across all four data types.
 
@@ -630,23 +627,20 @@ CoM_Figure23_EN <- ggplot(CoM_Assessment_all_EN, aes(Criterion, Avarage, fill = 
   facet_wrap(vars(Assessment_ge), nrow = 2, ncol = 2)
 
 
-
-  ggsave("Visualisation/CoM_Figure23_EN.png", 
-       CoM_Figure23_EN,
-       width =20, 
-       height = 15, 
-       units = "cm", 
-       dpi = 400)
-
-
-
 CoM_Figure23_EN
 
 ```
 
-<font size="2", line-height: 1.6> 
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
-</font> 
+</span>
+</div>
+<span>
+</span>
+
 
 **Data availability for municipal buildings**
 
@@ -751,7 +745,16 @@ CoM_Figure15_EN
 
 ```
 
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
 *Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
+</span>
+</div>
+<span>
+</span>
+
 
 **Data availability for Street lighting**
 
@@ -795,7 +798,16 @@ CoM_Figure37_EN <- ggplot(CoM_en_street_light_EN, aes(Street_light_EN, n)) +
   CoM_Figure37_EN
 ```
 
-*Source: The results of the survey implemented for and within the scope of the exploratory study objectives. Note: own illustration for the project, author Temur Gugushvili*
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+*Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
+</span>
+</div>
+<span>
+</span>
+
 
 **Data availability in the waste management sector**
 
@@ -847,7 +859,16 @@ CoM_Figure50_EN
 
 ```
 
-*Source: The results of the survey implemented for and within the scope of the exploratory study objectives. Note: own illustration for the project, author Temur Gugushvili*
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+*Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
+</span>
+</div>
+<span>
+</span>
+
 
 ### 3.3 Climate Change Adaptation - Risk and Vulnerability Assessment (RVA)
 
@@ -903,7 +924,16 @@ CoM_Figure51_EN
 
 ```
 
-*Source: The results of the survey implemented for and within the scope of the exploratory study objectives. Note: own illustration for the project, author Temur Gugushvili*
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+*Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
+</span>
+</div>
+<span>
+</span>
+
 
 According to survey results, 20 municipalities out of 26 reports rely on local knowledge to develop risk and vulnerability assessments. Furthermore, the databases of environmental organizations and daily or seasonal weather forecasts are among the most frequently used sources specified by 12 participant municipalities, followed by 11 responses on adopting national and local strategies for sustainable economic development. In comparison, the least used resources in this process were infrastructure maps, national or local water resource strategies, global or regional climate impact models/reports, and national health studies.
 
@@ -947,7 +977,16 @@ CoM_Figure49_EN
 
 ```
 
-*Source: The results of the survey implemented for and within the scope of the exploratory study objectives. Note: own illustration for the project, author Temur Gugushvili*
+<div class="warning" style='background-color: #ddebda; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+*Source: The results of the survey implemented for and within the scope of the exploratory study objectives.* | *Note: own illustration for the project, author Temur Gugushvili*
+</span>
+</div>
+<span>
+</span>
+
 
 In the frame of the interviews, the questions probed deeper into the notion of leveraging local knowledge and municipal techniques. The research showed that when data and knowledge are few, municipality representatives actively interact with local (preferably older) citizens to learn about particular subjects, including climate. The municipality's officials responded that, from a scientific standpoint, reliance on such an oral source might not be justified; nonetheless, in the absence of information, knowledge gathered from people's experience in particular issues assists them in making decisions/determining priorities.
 
@@ -999,7 +1038,7 @@ Based on the collected data, the municipalities highlighted that SEAP/SECAP acti
 ## Chapter 6. A look ahead: Perspectives and suggestions
 
 Climate change is a major global challenge that requires data-driven decision-making. Data is essential for understanding the impacts of climate change, predicting climate change-related events, and designing effective strategies for adaptation and mitigation. Data-driven decision-making can help governments and organizations identify the most cost-effective and efficient approaches to address the challenge of climate change. For example, data-driven decision-making can help identify areas more susceptible to climate change and identify the best strategies to reduce their vulnerability. Data can also be used to assess the success of mitigation and adaptation strategies and inform the design of new strategies. By leveraging data-driven decision-making, governments and organizations can become better equipped to address the challenges posed by climate change.
-Within the framework of the CoM, the figure below gives an overview of the variables that contribute to success as well as the problems that are connected with working with municipalities.
+Within the framework of the CoM, the tables below gives an overview of the variables that contribute to success as well as the problems that are connected with working with municipalities.
 
 
 ### Cooperation
@@ -1136,4 +1175,6 @@ UNDP - United Nations Development Programme
 
 UNFCCC - United Nations Framework Convention on Climate Change
 
+## Research visibility
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Txf8MTkr_Uw?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
