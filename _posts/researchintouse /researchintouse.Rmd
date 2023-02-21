@@ -1129,6 +1129,12 @@ All signatory cities specify that competency of those human resources participat
 </p></span>
 </div>
 
+
+## Research visibility
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Txf8MTkr_Uw?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## Abbreviations
 
 BEI - Baseline Emission Inventory
@@ -1174,7 +1180,3 @@ SLR - Systematic literature review
 UNDP - United Nations Development Programme
 
 UNFCCC - United Nations Framework Convention on Climate Change
-
-## Research visibility
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Txf8MTkr_Uw?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
