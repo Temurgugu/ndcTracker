@@ -26,7 +26,7 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
-citation_url: https://ndctracker.netlify.app/posts/ndctracker/
+citation_url: https://ndctracker.netlify.app/posts/researchintouse/
 slug: Saluqvadzeetal2022
 bibliography: biblio.bib
 ---
