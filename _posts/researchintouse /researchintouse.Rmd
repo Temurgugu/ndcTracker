@@ -1,7 +1,8 @@
 ---
 title: "Action for climate reaction: research-into-use for local governments"
 description: |
-  In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.
+  The report provides insights into the challenges and opportunities of implementing the CoM commitments on a municipal level. It will also explore the potential for data and information to support local climate action, and the role of municipalities in driving climate change initiatives. Our hope is that this report will be informative and useful for policymakers, municipal officials, and other stakeholders working towards a sustainable future.
+
 
 author:
   - name: Gvantsa Salukvadze 
@@ -10,8 +11,8 @@ author:
     affiliation_url: https://www.tsu.ge/
   - name: Natia Kekenadze 
     url: 
-    affiliation: 
-    affiliation_url: 
+    affiliation: Ivane Javakhishvili Tbilisi State University
+    affiliation_url: https://www.tsu.ge/
   - name: Temur Gugushvili 
     url: https://temurgugushvili.ge/
     affiliation: Ivane Javakhishvili Tbilisi State University
@@ -197,7 +198,7 @@ All of this has a significant impact on data collection and analysis. Especially
 
 **Human capital and their expertise in CoM**
 
-According to the study, human resources and their competence in climate and energy efficiency issues are equally challenging. The survey questionnaire was filled out by the municipality's person in charge of coordinating activities to carry out CoM responsibilities. In some cases, the in-depth interviews revealed that the assigned representatives to CoM find it challenging to even familiarize themselves with climate change and energy topics. The primary reason for this is that mostly CoM coordination is combined with other full-time jobs in different municipality departments that do not often directly relate to CoM issues or climate. Despite the fact that formal education matters for understanding and leading the CoM activities, only five respondents have formal high education in environmental science education. Other prevalence of education were management and administration (5), Engineering (4), economics (3) and law (3)(see fig.1).
+According to the study, human resources and their competence in climate and energy efficiency issues are equally challenging. The survey questionnaire was filled out by the municipality's person in charge of coordinating activities to carry out CoM responsibilities. In some cases, the in-depth interviews revealed that the assigned representatives to CoM find it challenging to even familiarize themselves with climate change and energy topics. The primary reason for this is that mostly CoM coordination is combined with other full-time jobs in different municipality departments that do not often directly relate to CoM issues or climate. Despite the fact that formal education matters for understanding and leading the CoM activities, only five respondents have formal high education in environmental science education. Other prevalence of education were management and administration (5), Engineering (4), economics (3) and law (3) (see fig.1).
 
 ```{r , echo = FALSE, message = FALSE, warning=FALSE, fig.height = 6, fig.width = 9, dev.args=list(bg='transparent', pointsize=10), fig.cap= "Education of the municipality representatives in charge of CoM"}
 
@@ -206,19 +207,19 @@ knitr::include_graphics("image/CoM_CodeCloudEducation.png")
 
 ```
 
+<div class="warning" style='background-color: #afbdac; color: #042226; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+*Source: The results of the survey implemented for and within the scope of the exploratory study objectives. | Note: own illustration, codecloud for the project*
+</span>
+</div>
+<span>
+</span>
 
 
->Source: The results of the survey implemented for and within the scope of the exploratory study objectives. | Note: own illustration, codecloud for the project
 
 
-
-3. Third item with a hidden code block
-<details>
-  <summary>Example</summary>
-  ```
-  long console output here
-  ```
-</details>
 
 
 
