@@ -10,9 +10,8 @@ The ndcTracker initiated as a side project of the "Tracing the Link Between Clim
 
 Since than the ndcTracker provide great help for the [research team](https://ndctracker.netlify.app/team.html) to distribute climate change research findings and make the raw data available for researchers and stakeholders. The ndcTracker used for the follow projects:
 
-1.Exploratory Study on “Tracing the link between Climate
-Justice Action and the NDCs”
-1.Action for climate reaction: research-into-use for local government
+    1.Exploratory Study on “Tracing the Link between Climate Justice Action and the NDCs”;
+    2.Action for Climate Reaction: Research-into-use for Local Government.
 
 Projects supported by following organisations:
 
