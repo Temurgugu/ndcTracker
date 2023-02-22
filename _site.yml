@@ -18,7 +18,7 @@ navbar:
       href: index.xml
 output: distill::distill_article
 google_analytics: "G-NC3CZM04ET"
-creative_commons: CC BY
+creative_commons: CC BY-NC
 cookie_consent:
   style: simple
   type: express
@@ -27,7 +27,7 @@ cookie_consent:
   cookies_policy: url
 collections:
   posts:
-    share: [twitter, linkedin, facebook]
+    share: [twitter, linkedin, facebook, mastodon]
     feed_items_max: 50
     subscribe: _subscribe.html
     citations: true
