@@ -27,6 +27,37 @@
     "preview_height": 2047
   },
   {
+    "path": "posts/goodpractices/",
+    "title": "გზავნილი კლიმატის ცვლილების საპასუხოდ: კარგი პრაქტიკები ადრესატი მუნიციპალიტეტებისთვის",
+    "description": "ბროშურა მომზადებულია კვლევითი პროექტის \"კლიმატის ცვლილების საპასუხოდ: კვლევაზე დაფუძნებული პრაქტიკა ადგილობრივი ხელისუფლების საქმიანობისთვის\" ფარგლებში",
+    "author": [
+      {
+        "name": "გვანცა სალუქვაძე",
+        "url": "https://example.com/norajones"
+      },
+      {
+        "name": "ნათია კეკენაძე",
+        "url": {}
+      },
+      {
+        "name": "თემურ გუგუშვილი",
+        "url": "https://temurgugushvili.ge/"
+      },
+      {
+        "name": "ანდრო ქოთუა",
+        "url": {}
+      }
+    ],
+    "date": "2022-12-15",
+    "categories": [],
+    "contents": "\n\nმომზადებულია გაეროს განვითარების პროგრამის (UNDP) ინიციატივის Climate Promise ფარგლებში, როგორც ეროვნულ დონეზე განსაზღვრული წვლილის (NDC) მხარდაჭერის პროგრამის ნაწილი, NDC თანამშრომლობის ხელშეწყობით, გერმანიის, იაპონიის, ევროკავშირის, გაერთიანებული სამეფოს, შვედეთის, ესპანეთის, ბელგიის, ისლანდიის, იტალიის და პორტუგალიის მთავრობების, და გაეროს განვითარების პროგრამის (UNDP) ძირითადი დონორების გულუხვი დაფინანსებით.\nმომზადებულია კვლევითი პროექტის “კლიმატის ცვლილების საპასუხოდ: კვლევაზე დაფუძნებული პრაქტიკა ადგილობრივი ხელისუფლების საქმიანობისთვის” ფარგლებში\n\n\n\nმოამზადა:\nსითი ინსტიტუტი საქართველო (CIG)\nმისამართი\nპეკინის ქუჩა 31\n0160 თბილისი, საქართველო\ninfo@cig.ge\nავტორები:\nგვანცა სალუქვაძე\nნათია კეკენაძე\nთემურ გუგუშვილი\nკონტრიბუტორები:\nმალხაზ მერაბიშვილი\nლელა მდინარაძე\nელენე დარჯანია\nდიზაინი:\nანდრო ქორთუა\n\n\n\n",
+    "preview": "posts/goodpractices/image/preview.png",
+    "last_modified": "2023-02-26T13:32:02+04:00",
+    "input_file": "goodpracitces.knit.md",
+    "preview_width": 687,
+    "preview_height": 489
+  },
+  {
     "path": "posts/ndcTracker/",
     "title": "“Tracing the link between Climate Justice Action and the NDCs” in Georgia",
     "description": "In the following report, the authors describe key processes shaping the new regime in climate governance as well as reflect on Georgia's position and progress within the agreed-upon system. The authors delineate the steps Georgia will be undertaking as a party to Paris Agreement on a pathway to meet the country's commitments outlined in the updated NDCs. The report outlines key findings of the study in two primary directions (1) review of the policy documents and (2) case study outcomes. Both components support the cross-examination of findings.",

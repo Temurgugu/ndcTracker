@@ -1,0 +1,76 @@
+---
+title: "გზავნილი კლიმატის ცვლილების საპასუხოდ: კარგი პრაქტიკები ადრესატი მუნიციპალიტეტებისთვის"
+description: |
+  ბროშურა მომზადებულია კვლევითი პროექტის "კლიმატის ცვლილების საპასუხოდ: კვლევაზე დაფუძნებული პრაქტიკა ადგილობრივი ხელისუფლების საქმიანობისთვის" ფარგლებში
+
+author:
+  - name: გვანცა სალუქვაძე 
+    url: https://example.com/norajones
+    affiliation: ივანე ჯავახიშვილის სახელობის თბილისის სახელმწიფო უნივერსიტეტი
+    affiliation_url: https://www.tsu.ge/
+  - name: ნათია კეკენაძე 
+    url: 
+    affiliation: ივანე ჯავახიშვილის სახელობის თბილისის სახელმწიფო უნივერსიტეტი
+    affiliation_url: https://www.tsu.ge/
+  - name: თემურ გუგუშვილი 
+    url: https://temurgugushvili.ge/
+    affiliation: შავი ზღვის საერთაშორისო უნივერსიტეტი
+    affiliation_url: https://ibsu.edu.ge/ge/
+  - name: ანდრო ქოთუა 
+    url: 
+    affiliation: სითი ინსტიტუტი საქართველო
+    affiliation_url: http://cityinstitute.ge/
+
+date: 12-15-2022
+preview: image/preview.png
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+    toc_float: true
+citation_url: https://ndctracker.netlify.app/posts/ndctracker/
+slug: Saluqvadzeetal2022
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+
+```
+
+
+![](/Users/macbook/Documents/website/ndcTracker/_posts/researchintouse/image/combine_images.png)
+
+*მომზადებულია გაეროს განვითარების პროგრამის (UNDP) ინიციატივის Climate Promise ფარგლებში, როგორც ეროვნულ დონეზე განსაზღვრული წვლილის (NDC) მხარდაჭერის პროგრამის ნაწილი, NDC თანამშრომლობის ხელშეწყობით, გერმანიის, იაპონიის, ევროკავშირის, გაერთიანებული სამეფოს, შვედეთის, ესპანეთის, ბელგიის, ისლანდიის, იტალიის და პორტუგალიის მთავრობების, და გაეროს განვითარების პროგრამის (UNDP) ძირითადი დონორების გულუხვი დაფინანსებით.*
+
+*მომზადებულია კვლევითი პროექტის "კლიმატის ცვლილების საპასუხოდ: კვლევაზე დაფუძნებული პრაქტიკა ადგილობრივი ხელისუფლების საქმიანობისთვის" ფარგლებში*
+
+
+
+![](image/Horizontal_Jan2023.png)
+
+```{r out.height = "460px", out.width='800px', echo=F}
+knitr::include_graphics("./image/Climathon_Brochure_Final.pdf")
+```
+
+
+**მოამზადა:**
+სითი ინსტიტუტი საქართველო (CIG)
+მისამართი
+პეკინის ქუჩა 31
+0160 თბილისი, საქართველო
+info@cig.ge
+
+ავტორები:
+გვანცა სალუქვაძე
+ნათია კეკენაძე
+თემურ გუგუშვილი
+
+კონტრიბუტორები:
+მალხაზ მერაბიშვილი
+ლელა მდინარაძე
+ელენე დარჯანია
+
+დიზაინი:
+ანდრო ქორთუა
