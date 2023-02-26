@@ -21,7 +21,7 @@ author:
     affiliation: სითი ინსტიტუტი საქართველო
     affiliation_url: http://cityinstitute.ge/
 
-date: 12-15-2022
+date: 02-26-2023
 preview: image/preview.png
 output:
   distill::distill_article:
@@ -40,7 +40,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-![](/Users/macbook/Documents/website/ndcTracker/_posts/researchintouse/image/combine_images.png)
+![](https://raw.githubusercontent.com/Temurgugu/ndcTracker/main/_posts/researchintouse/image/combine_images.png)
 
 *მომზადებულია გაეროს განვითარების პროგრამის (UNDP) ინიციატივის Climate Promise ფარგლებში, როგორც ეროვნულ დონეზე განსაზღვრული წვლილის (NDC) მხარდაჭერის პროგრამის ნაწილი, NDC თანამშრომლობის ხელშეწყობით, გერმანიის, იაპონიის, ევროკავშირის, გაერთიანებული სამეფოს, შვედეთის, ესპანეთის, ბელგიის, ისლანდიის, იტალიის და პორტუგალიის მთავრობების, და გაეროს განვითარების პროგრამის (UNDP) ძირითადი დონორების გულუხვი დაფინანსებით.*
 
@@ -48,9 +48,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-![](image/Horizontal_Jan2023.png)
+![](https://raw.githubusercontent.com/Temurgugu/ndcTracker/main/_posts/researchintouse/image/Horizontal_Jan2023.png)
 
-```{r out.height = "460px", out.width='800px', echo=F}
+```{r out.height = "660px", out.width='800px', echo=F}
 knitr::include_graphics("./image/Climathon_Brochure_Final.pdf")
 ```
 
