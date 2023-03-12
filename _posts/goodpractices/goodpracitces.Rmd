@@ -29,8 +29,8 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
-citation_url: https://ndctracker.netlify.app/posts/ndctracker/
-slug: Saluqvadzeetal2022
+citation_url: https://ndctracker.netlify.app/posts/goodpractices/
+slug: Saluqvadzeetal2023
 ---
 
 ```{r setup, include=FALSE}
